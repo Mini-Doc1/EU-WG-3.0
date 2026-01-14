@@ -1,0 +1,189 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "0eff-5474-ea2b-3d08",
+    "name": "Luptal Wolves",
+    "gameSystemId": "sys-3396-9326-565c-5fb6",
+    "gameSystemRevision": 2,
+    "revision": 3,
+    "battleScribeVersion": "2.03",
+    "type": "catalogue",
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Pioneer Squad",
+        "hidden": false,
+        "id": "8101-aa3d-03b6-2baf",
+        "costs": [
+          {
+            "name": "Pts",
+            "typeId": "points",
+            "value": 3
+          },
+          {
+            "name": "Requisition",
+            "typeId": "ff33-0eb3-3b78-7829",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Pioneers",
+            "id": "a8f8-c3ed-cf3d-9133",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "model",
+                "import": true,
+                "name": "Pioneer",
+                "hidden": false,
+                "id": "9ced-754f-feb3-f64c",
+                "profiles": [
+                  {
+                    "name": "Pioneer",
+                    "typeId": "a58b-8183-8b57-845c",
+                    "typeName": "INFANTRY",
+                    "hidden": false,
+                    "id": "da69-2b1f-4963-302a",
+                    "characteristics": [
+                      {
+                        "name": "Unit Type",
+                        "typeId": "d0c3-cd30-159c-41ee",
+                        "$text": ""
+                      },
+                      {
+                        "name": "HP",
+                        "typeId": "26e6-deb2-5052-a74f",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Def",
+                        "typeId": "7831-ff70-1145-ce60",
+                        "$text": ""
+                      },
+                      {
+                        "name": "MS",
+                        "typeId": "3f4d-38e9-9633-76a1",
+                        "$text": ""
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "36f6-a14d-1670-f31d",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Movement",
+                        "typeId": "6199-ffd0-7221-bdc4",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Discipline",
+                        "typeId": "4ae7-22fc-d553-d923",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Willpower",
+                        "typeId": "6756-14bb-043e-2aa8",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Initiative",
+                        "typeId": "0698-48b0-7460-9a7e",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Strength",
+                        "typeId": "acfe-3039-aa5c-e541",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Toughness",
+                        "typeId": "2fba-f111-39dc-c7b4",
+                        "$text": ""
+                      },
+                      {
+                        "name": "RWS",
+                        "typeId": "db0e-ca2f-9e5e-e143",
+                        "$text": ""
+                      },
+                      {
+                        "name": "MWS",
+                        "typeId": "424d-378d-20be-20d3",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fd11-5ee7-c955-3667"
+              },
+              {
+                "type": "max",
+                "value": 4,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b01b-9013-a411-f779"
+              }
+            ],
+            "defaultSelectionEntryId": "9ced-754f-feb3-f64c"
+          },
+          {
+            "name": "Pioneer Sergeant",
+            "id": "f72c-0b62-f04e-8abc",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "model",
+                "import": true,
+                "name": "Pioneer Sergeant",
+                "hidden": false,
+                "id": "7ba5-020b-81ba-a645",
+                "costs": [
+                  {
+                    "name": "Pts",
+                    "typeId": "points",
+                    "value": 4
+                  },
+                  {
+                    "name": "Requisition",
+                    "typeId": "ff33-0eb3-3b78-7829",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 0,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2131-bcb1-d9f0-dffb"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "90de-c199-6ab1-d0fc"
+              }
+            ],
+            "defaultSelectionEntryId": "7ba5-020b-81ba-a645"
+          }
+        ]
+      }
+    ]
+  }
+}
