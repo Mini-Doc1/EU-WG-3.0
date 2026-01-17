@@ -5,7 +5,7 @@
     "name": "Sarpenton Conglomerate",
     "gameSystemId": "sys-3396-9326-565c-5fb6",
     "gameSystemRevision": 3,
-    "revision": 9,
+    "revision": 12,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "categoryEntries": [
@@ -100,7 +100,7 @@
           {
             "name": "Pts",
             "typeId": "points",
-            "value": -2
+            "value": 1
           },
           {
             "name": "Requisition",
@@ -141,7 +141,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Sarpenton Mesh Armour",
+            "name": "Sarpenton Mesh Armor",
             "hidden": false,
             "id": "0ad3-d03e-0987-bfdd",
             "type": "selectionEntry",
@@ -198,7 +198,7 @@
                 "id": "6d81-bd39-8ef2-435a",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -223,37 +223,37 @@
                     "$text": "5"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "7"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "5"
                   },
                   {
-                    "name": "Intelligence",
+                    "name": "Int",
                     "typeId": "6c6d-9ebe-a779-155b",
                     "$text": "5"
                   },
                   {
-                    "name": "Initiative",
+                    "name": "Ini",
                     "typeId": "0698-48b0-7460-9a7e",
                     "$text": "4"
                   },
                   {
-                    "name": "Strength",
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -342,7 +342,7 @@
                 "id": "66ed-e58e-eb7a-a299",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": ""
                   },
@@ -367,37 +367,37 @@
                     "$text": "5"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "7"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "5"
                   },
                   {
-                    "name": "Intelligence",
+                    "name": "Int",
                     "typeId": "6c6d-9ebe-a779-155b",
                     "$text": "5"
                   },
                   {
-                    "name": "Initiative",
+                    "name": "Ini",
                     "typeId": "0698-48b0-7460-9a7e",
                     "$text": "4"
                   },
                   {
-                    "name": "Strength",
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -496,7 +496,7 @@
                 "id": "3093-2be8-ceb0-5c40",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -521,37 +521,37 @@
                     "$text": "5"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "8"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "6"
                   },
                   {
-                    "name": "Intelligence",
+                    "name": "Int",
                     "typeId": "6c6d-9ebe-a779-155b",
                     "$text": "5"
                   },
                   {
-                    "name": "Initiative",
+                    "name": "Ini",
                     "typeId": "0698-48b0-7460-9a7e",
                     "$text": "4"
                   },
                   {
-                    "name": "Strength",
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -635,6 +635,14 @@
                         "id": "b18f-61b5-6d6a-6ef8"
                       }
                     ]
+                  },
+                  {
+                    "import": true,
+                    "name": "Sidearms",
+                    "hidden": false,
+                    "id": "46b1-daf3-7e2e-cddd",
+                    "type": "selectionEntryGroup",
+                    "targetId": "9e55-245f-4a49-0352"
                   }
                 ],
                 "costs": [
@@ -916,12 +924,12 @@
           {
             "name": "Requisition",
             "typeId": "ff33-0eb3-3b78-7829",
-            "value": 1
+            "value": 2
           }
         ],
         "profiles": [
           {
-            "name": "Sarpenton Plasma Repeater",
+            "name": "Sarpenton Rail Rifle",
             "typeId": "d233-0653-f762-e538",
             "typeName": "Weapon",
             "hidden": false,
@@ -935,22 +943,22 @@
               {
                 "name": "S",
                 "typeId": "6997-f9f2-6f9b-ef3c",
-                "$text": "5"
+                "$text": "8"
               },
               {
                 "name": "AP",
                 "typeId": "8c5e-9516-a499-63f5",
-                "$text": "1"
+                "$text": "4"
               },
               {
                 "name": "D",
                 "typeId": "7f27-f5c3-9c54-de65",
-                "$text": "1"
+                "$text": "2"
               },
               {
                 "name": "Abilities",
                 "typeId": "cfcb-ec22-834e-7336",
-                "$text": "Overheat (6), Energy, Rifle"
+                "$text": "Overheat (1), Energy, Unwieldy, Precision, Heavy"
               },
               {
                 "name": "WPN Dice",
@@ -964,6 +972,43 @@
               }
             ]
           }
+        ],
+        "infoLinks": [
+          {
+            "name": "Precision",
+            "id": "537f-917f-d1a4-a1c5",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "4cdb-6787-de2a-2c6d"
+          },
+          {
+            "name": "Overheat",
+            "id": "0795-87e0-1cf6-c251",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "ec51-d389-9c3e-c552"
+          },
+          {
+            "name": "Unwieldy Weapon",
+            "id": "4c93-516c-f288-2a6c",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "def8-6fb8-62fd-9dbc"
+          },
+          {
+            "name": "Energy",
+            "id": "4436-bb56-06d5-1df6",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "0f48-2fbf-a744-86f6"
+          },
+          {
+            "name": "Heavy",
+            "id": "a6c0-7866-43a9-ee53",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "621b-e546-879e-9c41"
+          }
         ]
       },
       {
@@ -976,12 +1021,12 @@
           {
             "name": "Pts",
             "typeId": "points",
-            "value": 0
+            "value": 5
           },
           {
             "name": "Requisition",
             "typeId": "ff33-0eb3-3b78-7829",
-            "value": 1
+            "value": 0
           }
         ],
         "profiles": [
@@ -1028,6 +1073,29 @@
                 "$text": "BS"
               }
             ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Deflagration",
+            "id": "b526-19d0-416c-e3e8",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "32cd-62dc-faa7-e40c"
+          },
+          {
+            "name": "Rifle",
+            "id": "f09e-f473-f79d-c7a6",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "d608-bce2-cf48-716c"
+          },
+          {
+            "name": "Unwieldy Weapon",
+            "id": "7494-bbed-e5a3-ebc3",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "def8-6fb8-62fd-9dbc"
           }
         ]
       },
@@ -1396,7 +1464,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Sarpenton Last-Ditch Armour",
+            "name": "Sarpenton Last-Ditch Armor",
             "hidden": false,
             "id": "dfc6-1d6e-ec49-f43a",
             "type": "selectionEntry",
@@ -1453,7 +1521,7 @@
                 "id": "2d9e-9a25-8ce9-109a",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -1478,37 +1546,37 @@
                     "$text": "4"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "6"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "4"
                   },
                   {
-                    "name": "Intelligence",
+                    "name": "Int",
                     "typeId": "6c6d-9ebe-a779-155b",
                     "$text": "4"
                   },
                   {
-                    "name": "Initiative",
+                    "name": "Ini",
                     "typeId": "0698-48b0-7460-9a7e",
                     "$text": "4"
                   },
                   {
-                    "name": "Strength",
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -1597,7 +1665,7 @@
                 "id": "0323-0d07-d321-1e05",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -1622,37 +1690,37 @@
                     "$text": "4"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "6"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "4"
                   },
                   {
-                    "name": "Intelligence",
+                    "name": "Int",
                     "typeId": "6c6d-9ebe-a779-155b",
                     "$text": "4"
                   },
                   {
-                    "name": "Initiative",
+                    "name": "Ini",
                     "typeId": "0698-48b0-7460-9a7e",
                     "$text": "3"
                   },
                   {
-                    "name": "Strength",
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -1922,7 +1990,7 @@
                     "id": "bfe5-e87b-13af-2e6e",
                     "characteristics": [
                       {
-                        "name": "Unit Type",
+                        "name": "UT",
                         "typeId": "d0c3-cd30-159c-41ee",
                         "$text": "INFANTRY, RETINUE, SARPENTON"
                       },
@@ -1947,37 +2015,37 @@
                         "$text": "4"
                       },
                       {
-                        "name": "Movement",
+                        "name": "M",
                         "typeId": "6199-ffd0-7221-bdc4",
                         "$text": "3"
                       },
                       {
-                        "name": "Discipline",
+                        "name": "D",
                         "typeId": "4ae7-22fc-d553-d923",
                         "$text": "6"
                       },
                       {
-                        "name": "Willpower",
+                        "name": "W",
                         "typeId": "6756-14bb-043e-2aa8",
                         "$text": "6"
                       },
                       {
-                        "name": "Intelligence",
+                        "name": "Int",
                         "typeId": "6c6d-9ebe-a779-155b",
                         "$text": "5"
                       },
                       {
-                        "name": "Initiative",
+                        "name": "Ini",
                         "typeId": "0698-48b0-7460-9a7e",
                         "$text": "3"
                       },
                       {
-                        "name": "Strength",
+                        "name": "S",
                         "typeId": "acfe-3039-aa5c-e541",
                         "$text": "3"
                       },
                       {
-                        "name": "Toughness",
+                        "name": "T",
                         "typeId": "2fba-f111-39dc-c7b4",
                         "$text": "3"
                       },
@@ -2002,6 +2070,22 @@
                     "id": "712f-4f00-b22c-ee50",
                     "type": "selectionEntryGroup",
                     "targetId": "c5ba-8012-e4e1-4475"
+                  },
+                  {
+                    "import": true,
+                    "name": "Retinue Melee Wargear (Basic)",
+                    "hidden": false,
+                    "id": "74cb-033a-410a-bacf",
+                    "type": "selectionEntryGroup",
+                    "targetId": "8948-c36e-e412-c0da"
+                  },
+                  {
+                    "import": true,
+                    "name": "Sidearms",
+                    "hidden": false,
+                    "id": "3cd8-2ff9-975c-6ff2",
+                    "type": "selectionEntryGroup",
+                    "targetId": "9e55-245f-4a49-0352"
                   }
                 ]
               },
@@ -2049,7 +2133,7 @@
                     "id": "ab70-8062-78a0-8a39",
                     "characteristics": [
                       {
-                        "name": "Unit Type",
+                        "name": "UT",
                         "typeId": "d0c3-cd30-159c-41ee",
                         "$text": "INFANTRY, RETINUE, SARPENTON, DYNASTY"
                       },
@@ -2074,37 +2158,37 @@
                         "$text": "4"
                       },
                       {
-                        "name": "Movement",
+                        "name": "M",
                         "typeId": "6199-ffd0-7221-bdc4",
                         "$text": "3"
                       },
                       {
-                        "name": "Discipline",
+                        "name": "D",
                         "typeId": "4ae7-22fc-d553-d923",
                         "$text": "7"
                       },
                       {
-                        "name": "Willpower",
+                        "name": "W",
                         "typeId": "6756-14bb-043e-2aa8",
                         "$text": "6"
                       },
                       {
-                        "name": "Intelligence",
+                        "name": "Int",
                         "typeId": "6c6d-9ebe-a779-155b",
                         "$text": "5"
                       },
                       {
-                        "name": "Initiative",
+                        "name": "Ini",
                         "typeId": "0698-48b0-7460-9a7e",
                         "$text": "3"
                       },
                       {
-                        "name": "Strength",
+                        "name": "S",
                         "typeId": "acfe-3039-aa5c-e541",
                         "$text": "3"
                       },
                       {
-                        "name": "Toughness",
+                        "name": "T",
                         "typeId": "2fba-f111-39dc-c7b4",
                         "$text": "3"
                       },
@@ -2129,6 +2213,22 @@
                     "id": "b7dd-0ca1-3606-0f23",
                     "type": "selectionEntryGroup",
                     "targetId": "39f0-3dd7-7daa-76b4"
+                  },
+                  {
+                    "import": true,
+                    "name": "House Weaponry",
+                    "hidden": false,
+                    "id": "438b-760d-ca25-2c01",
+                    "type": "selectionEntryGroup",
+                    "targetId": "df39-cfca-cf33-e4de"
+                  },
+                  {
+                    "import": true,
+                    "name": "Sidearms",
+                    "hidden": false,
+                    "id": "e35a-e872-a2c7-4875",
+                    "type": "selectionEntryGroup",
+                    "targetId": "9e55-245f-4a49-0352"
                   }
                 ]
               }
@@ -2166,7 +2266,7 @@
                 "id": "3342-c8b6-323c-7c58",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -2191,37 +2291,37 @@
                     "$text": "6"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "9"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "7"
                   },
                   {
-                    "name": "Intelligence",
+                    "name": "Int",
                     "typeId": "6c6d-9ebe-a779-155b",
                     "$text": "7"
                   },
                   {
-                    "name": "Initiative",
+                    "name": "Ini",
                     "typeId": "0698-48b0-7460-9a7e",
                     "$text": "4"
                   },
                   {
-                    "name": "Strength",
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -2442,6 +2542,14 @@
                     "id": "cbc7-40c0-7702-d508",
                     "type": "selectionEntryGroup",
                     "targetId": "39f0-3dd7-7daa-76b4"
+                  },
+                  {
+                    "import": true,
+                    "name": "Sidearms",
+                    "hidden": false,
+                    "id": "7aa9-ffa3-0495-1758",
+                    "type": "selectionEntryGroup",
+                    "targetId": "9e55-245f-4a49-0352"
                   }
                 ]
               }
@@ -2858,7 +2966,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Sarpenton Last-Ditch Armour",
+            "name": "Sarpenton Last-Ditch Armor",
             "hidden": false,
             "id": "493a-4c13-52a2-5af4",
             "type": "selectionEntry",
@@ -2915,7 +3023,7 @@
                 "id": "0a2a-d804-7ecc-22e9",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -2940,32 +3048,37 @@
                     "$text": "4"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "6"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "4"
                   },
                   {
-                    "name": "Initiative",
-                    "typeId": "0698-48b0-7460-9a7e",
-                    "$text": "4"
+                    "name": "Int",
+                    "typeId": "6c6d-9ebe-a779-155b",
+                    "$text": "5"
                   },
                   {
-                    "name": "Strength",
+                    "name": "Ini",
+                    "typeId": "0698-48b0-7460-9a7e",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -3063,7 +3176,7 @@
                 "id": "62f7-3028-751f-b38c",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -3088,32 +3201,37 @@
                     "$text": "4"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "6"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "4"
                   },
                   {
-                    "name": "Initiative",
-                    "typeId": "0698-48b0-7460-9a7e",
-                    "$text": "3"
+                    "name": "Int",
+                    "typeId": "6c6d-9ebe-a779-155b",
+                    "$text": "6"
                   },
                   {
-                    "name": "Strength",
+                    "name": "Ini",
+                    "typeId": "0698-48b0-7460-9a7e",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -3161,6 +3279,14 @@
                     "id": "71ef-a4d5-bb02-3e2a",
                     "type": "selectionEntryGroup",
                     "targetId": "7f14-a165-5b0f-91f4"
+                  },
+                  {
+                    "import": true,
+                    "name": "Sidearms",
+                    "hidden": false,
+                    "id": "4aa7-e432-94c1-68cd",
+                    "type": "selectionEntryGroup",
+                    "targetId": "9e55-245f-4a49-0352"
                   }
                 ],
                 "costs": [
@@ -3274,7 +3400,7 @@
                 "id": "9c2f-3f47-3ee4-2866",
                 "characteristics": [
                   {
-                    "name": "Unit Type",
+                    "name": "UT",
                     "typeId": "d0c3-cd30-159c-41ee",
                     "$text": "INFANTRY"
                   },
@@ -3299,37 +3425,37 @@
                     "$text": "6"
                   },
                   {
-                    "name": "Movement",
+                    "name": "M",
                     "typeId": "6199-ffd0-7221-bdc4",
                     "$text": "3"
                   },
                   {
-                    "name": "Discipline",
+                    "name": "D",
                     "typeId": "4ae7-22fc-d553-d923",
                     "$text": "6"
                   },
                   {
-                    "name": "Willpower",
+                    "name": "W",
                     "typeId": "6756-14bb-043e-2aa8",
                     "$text": "6"
                   },
                   {
-                    "name": "Intelligence",
+                    "name": "Int",
                     "typeId": "6c6d-9ebe-a779-155b",
                     "$text": "6"
                   },
                   {
-                    "name": "Initiative",
+                    "name": "Ini",
                     "typeId": "0698-48b0-7460-9a7e",
                     "$text": "4"
                   },
                   {
-                    "name": "Strength",
+                    "name": "S",
                     "typeId": "acfe-3039-aa5c-e541",
                     "$text": "3"
                   },
                   {
-                    "name": "Toughness",
+                    "name": "T",
                     "typeId": "2fba-f111-39dc-c7b4",
                     "$text": "3"
                   },
@@ -3369,6 +3495,14 @@
                     "id": "7068-7c67-ffd4-546b",
                     "type": "selectionEntryGroup",
                     "targetId": "df39-cfca-cf33-e4de"
+                  },
+                  {
+                    "import": true,
+                    "name": "Sidearms",
+                    "hidden": false,
+                    "id": "6ffc-ee4b-5fa8-5cee",
+                    "type": "selectionEntryGroup",
+                    "targetId": "9e55-245f-4a49-0352"
                   }
                 ],
                 "costs": [
@@ -3402,7 +3536,7 @@
         ],
         "profiles": [
           {
-            "name": "Sarpenton Conscript Squad",
+            "name": "Sarpenton House Guard Squad",
             "typeId": "8555-07df-4466-1fbb",
             "hidden": false,
             "id": "16d2-f218-f8b9-6459",
@@ -3415,7 +3549,7 @@
             ]
           },
           {
-            "name": "Sarpenton Last Ditch Conscript",
+            "name": "Sarpenton House Guard Squad",
             "typeId": "0d83-d584-6c16-6b6f",
             "typeName": "Lore",
             "hidden": false,
@@ -3697,7 +3831,7 @@
               {
                 "name": "D",
                 "typeId": "7f27-f5c3-9c54-de65",
-                "$text": "1"
+                "$text": "2"
               },
               {
                 "name": "Abilities",
@@ -3707,7 +3841,7 @@
               {
                 "name": "WPN Dice",
                 "typeId": "0255-21c0-4ef7-efa2",
-                "$text": "1"
+                "$text": "3"
               },
               {
                 "name": "BS/MS",
@@ -4143,6 +4277,223 @@
             ]
           }
         ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sarpenton Deflagration Pistol",
+        "hidden": false,
+        "id": "f931-a1b8-ff4d-3ba5",
+        "costs": [
+          {
+            "name": "Pts",
+            "typeId": "points",
+            "value": 3
+          },
+          {
+            "name": "Requisition",
+            "typeId": "ff33-0eb3-3b78-7829",
+            "value": 0
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sarpenton Deflagration Pistol",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "dfe0-013f-4ab6-c7a7",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": ""
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": ""
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": ""
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": ""
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": ""
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": ""
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Deflagration",
+            "id": "7dcd-fa6d-3f39-431a",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "32cd-62dc-faa7-e40c"
+          },
+          {
+            "name": "Pistol",
+            "id": "31b7-1088-1d3e-0563",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "219a-5748-263e-78bf"
+          },
+          {
+            "name": "One-Handed",
+            "id": "f112-d711-b5de-702e",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "f3e5-5ab7-e9a6-a257"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sarpenton Ballistic Pistol",
+        "hidden": false,
+        "id": "4dd4-36a9-8fce-97ad",
+        "profiles": [
+          {
+            "name": "Sarpenton Ballistic Pistol",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "71ea-bce2-0d9c-ecf5",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "12"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "3"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Pistol, One-Handed, Ballistic"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "2"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "df20-39a5-e285-db2a",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Pistol",
+            "id": "5379-895a-4dc5-b6f8",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "219a-5748-263e-78bf"
+          },
+          {
+            "name": "One-Handed",
+            "id": "79f9-8c03-9e2e-1a27",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "f3e5-5ab7-e9a6-a257"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sarpenton Combat Engineer Squad",
+        "hidden": false,
+        "id": "742b-656a-ffc5-6731",
+        "selectionEntryGroups": [
+          {
+            "name": "New Group",
+            "id": "8615-7986-de60-59b0",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Combat Engineer",
+                "hidden": false,
+                "id": "8366-83cb-335a-5096",
+                "costs": [
+                  {
+                    "name": "Pts",
+                    "typeId": "points",
+                    "value": 3
+                  },
+                  {
+                    "name": "Requisition",
+                    "typeId": "ff33-0eb3-3b78-7829",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 5,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a45c-d428-9828-c9bb"
+              },
+              {
+                "type": "max",
+                "value": 12,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "04d0-efd8-1154-2651"
+              }
+            ]
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -4225,6 +4576,14 @@
             "name": "Elite Troops"
           }
         ]
+      },
+      {
+        "import": true,
+        "name": "Sarpenton Pioneer Squad",
+        "hidden": false,
+        "id": "7a94-82bd-50eb-3258",
+        "type": "selectionEntry",
+        "targetId": "742b-656a-ffc5-6731"
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -4402,6 +4761,11 @@
             "targetId": "117d-0f83-277e-e79c",
             "costs": [
               {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 3
+              },
+              {
                 "name": "Requisition",
                 "typeId": "ff33-0eb3-3b78-7829",
                 "value": 1
@@ -4415,6 +4779,21 @@
             "id": "04ea-8499-808a-efd2",
             "type": "selectionEntry",
             "targetId": "da34-0200-1279-2855"
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Deflagration Rifle",
+            "hidden": false,
+            "id": "0130-8f39-129a-3652",
+            "type": "selectionEntry",
+            "targetId": "113b-4260-ce56-ff2e",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 5
+              }
+            ]
           }
         ]
       },
@@ -4449,7 +4828,7 @@
               {
                 "name": "Pts",
                 "typeId": "points",
-                "value": -1
+                "value": 1
               }
             ]
           },
@@ -4472,7 +4851,7 @@
               {
                 "name": "Pts",
                 "typeId": "points",
-                "value": -2
+                "value": 1
               }
             ]
           },
@@ -5114,7 +5493,7 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Sarpenton Mesh Armour",
+            "name": "Sarpenton Mesh Armor",
             "hidden": false,
             "id": "3ebb-eac2-c991-f880",
             "type": "selectionEntry",
@@ -5151,6 +5530,175 @@
             "scope": "parent",
             "shared": true,
             "id": "9d2a-a219-95d8-8974"
+          }
+        ]
+      },
+      {
+        "name": "Retinue Melee Wargear (Basic)",
+        "id": "8948-c36e-e412-c0da",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "bc51-3608-0929-6e95"
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Sarpenton Energy Hatchet",
+            "hidden": false,
+            "id": "4c0f-a1fa-d9e6-7d29",
+            "type": "selectionEntry",
+            "targetId": "8eca-d8ee-8373-f177"
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Energy Knife",
+            "hidden": false,
+            "id": "7c15-e056-76a2-55f8",
+            "type": "selectionEntry",
+            "targetId": "2e45-a36e-8bff-8e29"
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Energy Saber",
+            "hidden": false,
+            "id": "9bfd-5770-cd31-d503",
+            "type": "selectionEntry",
+            "targetId": "2a21-08d7-1eab-a666"
+          },
+          {
+            "import": true,
+            "name": "Gansuu Gun-Blade",
+            "hidden": false,
+            "id": "7d82-4b7a-3485-8726",
+            "type": "selectionEntry",
+            "targetId": "28fc-4b39-5522-c436"
+          },
+          {
+            "import": true,
+            "name": "Masufai Honor-Blade",
+            "hidden": false,
+            "id": "fb93-b79a-97d0-ef8c",
+            "type": "selectionEntry",
+            "targetId": "5916-5ec0-f321-c68f"
+          }
+        ]
+      },
+      {
+        "name": "Retinue Ranged Wargear (Basic)",
+        "id": "7221-f646-d4ff-6310",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "081b-33c5-492f-9bb2"
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Masufai-Forged Long Rifle",
+            "hidden": false,
+            "id": "b16f-c4a6-639c-6ebe",
+            "type": "selectionEntry",
+            "targetId": "da34-0200-1279-2855"
+          },
+          {
+            "import": true,
+            "name": "Masufai-Forged Rifle",
+            "hidden": false,
+            "id": "5b81-fda2-6326-c302",
+            "type": "selectionEntry",
+            "targetId": "a2d2-c573-2626-448c"
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Energy Carbine",
+            "hidden": false,
+            "id": "8f6c-f7bf-84c0-fb56",
+            "type": "selectionEntry",
+            "targetId": "6f38-a809-79e2-ff3b"
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Energy Lock",
+            "hidden": false,
+            "id": "6a2d-7c5b-4751-9e45",
+            "type": "selectionEntry",
+            "targetId": "81d9-dcbb-723f-8e67"
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Energy Pistol",
+            "hidden": false,
+            "id": "9487-faea-1dac-cd1b",
+            "type": "selectionEntry",
+            "targetId": "ddf7-853b-2848-8da6"
+          }
+        ]
+      },
+      {
+        "name": "Sidearms",
+        "id": "9e55-245f-4a49-0352",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Sarpenton Energy Pistol",
+            "hidden": false,
+            "id": "bce3-ac96-6848-c42d",
+            "type": "selectionEntry",
+            "targetId": "ddf7-853b-2848-8da6"
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Deflagration Pistol",
+            "hidden": false,
+            "id": "c6ce-5c91-bc92-1621",
+            "type": "selectionEntry",
+            "targetId": "f931-a1b8-ff4d-3ba5",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Sarpenton Ballistic Pistol",
+            "hidden": false,
+            "id": "667c-02c2-30b2-ac47",
+            "type": "selectionEntry",
+            "targetId": "4dd4-36a9-8fce-97ad",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": -1
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "2370-5013-752d-edac"
           }
         ]
       }

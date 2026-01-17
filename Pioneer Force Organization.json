@@ -5,7 +5,7 @@
     "name": "Luptal Wolves",
     "gameSystemId": "sys-3396-9326-565c-5fb6",
     "gameSystemRevision": 2,
-    "revision": 3,
+    "revision": 4,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "sharedSelectionEntries": [
@@ -48,7 +48,7 @@
                     "id": "da69-2b1f-4963-302a",
                     "characteristics": [
                       {
-                        "name": "Unit Type",
+                        "name": "UT",
                         "typeId": "d0c3-cd30-159c-41ee",
                         "$text": ""
                       },
@@ -73,32 +73,37 @@
                         "$text": ""
                       },
                       {
-                        "name": "Movement",
+                        "name": "M",
                         "typeId": "6199-ffd0-7221-bdc4",
                         "$text": ""
                       },
                       {
-                        "name": "Discipline",
+                        "name": "D",
                         "typeId": "4ae7-22fc-d553-d923",
                         "$text": ""
                       },
                       {
-                        "name": "Willpower",
+                        "name": "W",
                         "typeId": "6756-14bb-043e-2aa8",
                         "$text": ""
                       },
                       {
-                        "name": "Initiative",
+                        "name": "Int",
+                        "typeId": "6c6d-9ebe-a779-155b",
+                        "$text": ""
+                      },
+                      {
+                        "name": "Ini",
                         "typeId": "0698-48b0-7460-9a7e",
                         "$text": ""
                       },
                       {
-                        "name": "Strength",
+                        "name": "S",
                         "typeId": "acfe-3039-aa5c-e541",
                         "$text": ""
                       },
                       {
-                        "name": "Toughness",
+                        "name": "T",
                         "typeId": "2fba-f111-39dc-c7b4",
                         "$text": ""
                       },
@@ -181,6 +186,24 @@
               }
             ],
             "defaultSelectionEntryId": "7ba5-020b-81ba-a645"
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Pioneer Squad",
+        "hidden": false,
+        "id": "10ef-d66c-b1f3-66b3",
+        "type": "selectionEntry",
+        "targetId": "8101-aa3d-03b6-2baf",
+        "categoryLinks": [
+          {
+            "targetId": "04c8-7927-d0d3-1be4",
+            "id": "9795-b117-bb98-9edc",
+            "primary": true,
+            "name": "Core Troops"
           }
         ]
       }

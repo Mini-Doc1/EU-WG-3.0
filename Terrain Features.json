@@ -5,7 +5,7 @@
     "name": "Terrain Features",
     "gameSystemId": "sys-3396-9326-565c-5fb6",
     "gameSystemRevision": 9,
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": "2.03",
     "sharedSelectionEntries": [
       {
@@ -219,6 +219,71 @@
               {
                 "name": "Map Special Rules",
                 "typeId": "9ec7-70bb-e73b-28f9",
+                "$text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Harrow Spark",
+        "hidden": false,
+        "id": "9b04-1806-03e8-091f"
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Thief's Poppy",
+        "hidden": false,
+        "id": "c4f1-b467-643b-9c0b"
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Farmer's Rot",
+        "hidden": false,
+        "id": "bde8-33f1-d40b-4270"
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Popping Weasel",
+        "hidden": false,
+        "id": "326d-d877-f5bc-4775"
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Silent Field",
+        "hidden": false,
+        "id": "b7fa-2796-cf26-54de",
+        "profiles": [
+          {
+            "name": "Silent Field",
+            "typeId": "a43d-8b65-0808-c7b2",
+            "typeName": "Anomalies",
+            "hidden": false,
+            "id": "aca0-053c-77a8-b14e",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "ec4f-7524-af44-7bce",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Silent Field",
+            "typeId": "0d83-d584-6c16-6b6f",
+            "typeName": "Lore",
+            "hidden": false,
+            "id": "e29c-b3ed-3229-2a1c",
+            "characteristics": [
+              {
+                "name": "Lore",
+                "typeId": "8f51-2099-f67c-300e",
                 "$text": ""
               }
             ]

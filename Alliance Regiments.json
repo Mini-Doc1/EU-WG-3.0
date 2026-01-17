@@ -1,11 +1,11 @@
 {
   "catalogue": {
     "library": false,
-    "id": "61dd-4c25-2605-40b5",
-    "name": "Patetian End Walkers",
+    "id": "911d-4422-882c-fd0b",
+    "name": "Alliance Regiments",
     "gameSystemId": "sys-3396-9326-565c-5fb6",
-    "gameSystemRevision": 8,
-    "revision": 2,
+    "gameSystemRevision": 11,
+    "revision": 1,
     "battleScribeVersion": "2.03",
     "type": "catalogue"
   }
