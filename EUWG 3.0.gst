@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="sys-3396-9326-565c-5fb6" name="EUWG 3.0" battleScribeVersion="2.03" revision="14" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <categoryEntries>
+    <categoryEntry name="Elite Troops" id="7ccd-248d-ed09-ff2d" hidden="false"/>
+    <categoryEntry name="Core Troops" id="04c8-7927-d0d3-1be4" hidden="false"/>
+    <categoryEntry name="Headquarters" id="abc8-6d5d-69ac-e959" hidden="false">
+      <description/>
+    </categoryEntry>
+    <categoryEntry name="Infantry Support" id="cca7-d1e3-4cb5-7821" hidden="false"/>
+    <categoryEntry name="Specialists" id="2a8a-af91-1767-2a1a" hidden="false"/>
+    <categoryEntry name="Recon" id="93e2-e365-9264-104b" hidden="false"/>
+    <categoryEntry name="Vehicles" id="813f-262b-7300-cdb5" hidden="false"/>
+    <categoryEntry name="Heavy Vehicles" id="0fe7-9352-51e1-360e" hidden="false"/>
+    <categoryEntry name="Transports" id="2165-0890-2d9d-cc2e" hidden="false"/>
+    <categoryEntry name="Luptal Wolves-Pioneer Force Organization" id="82d5-7f5d-03bb-e4e0" hidden="false"/>
+    <categoryEntry name="Terrain Feature" id="e002-128d-6b64-ee7c" hidden="false"/>
+    <categoryEntry name="Map Feature" id="bee2-7f3a-709f-786f" hidden="false"/>
+    <categoryEntry name="Anomaly" id="3c73-0f76-239e-2710" hidden="false"/>
+    <categoryEntry name="Army Commander Traits" id="ede0-ba06-67ad-5d40" hidden="false"/>
+    <categoryEntry name="Faction Special Rules" id="e4c8-5238-f1d0-f461" hidden="false"/>
+    <categoryEntry name="Reference Guide" id="0498-9b29-311f-4058" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry name="Organisation Chart" hidden="false" id="default-force">
+      <categoryLinks>
+        <categoryLink name="Expanded Pioneer Units" hidden="false" id="9b5c-2a35-67e4-3034" targetId="default-category"/>
+        <categoryLink name="Core Troops" hidden="false" id="fa85-805b-06ea-83c9" targetId="04c8-7927-d0d3-1be4">
+          <constraints>
+            <constraint type="max" value="9" field="selections" scope="force" shared="true" id="149e-f512-1133-a76b" includeChildSelections="true"/>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="12b1-540c-8811-3931" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elite Troops" hidden="false" id="29b3-c3aa-4cbb-1ef5" targetId="7ccd-248d-ed09-ff2d">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="force" shared="true" id="3747-23d1-f2c3-907c" includeChildSelections="true"/>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="f0e8-5ae4-5fa2-ee95" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Headquarters" hidden="false" id="248f-b2a7-beec-2188" targetId="abc8-6d5d-69ac-e959">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="6eb8-48c0-7d21-19ef" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="bdb2-b17b-68f6-f1a6" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Infantry Support" hidden="false" id="2798-c32e-13b4-0f04" targetId="cca7-d1e3-4cb5-7821">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="8bd9-33dd-9e31-2dc7" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="ca98-4c49-ad34-2eac" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Recon" hidden="false" id="b3ac-5ee2-a98b-6dee" targetId="93e2-e365-9264-104b">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="7a5f-9436-0467-eb4c" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="5" field="selections" scope="force" shared="true" id="139c-f7ed-8f9b-84cf" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Vehicles" hidden="false" id="d602-f792-ce8b-025a" targetId="813f-262b-7300-cdb5">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a1f7-8353-c003-18c3" includeChildSelections="true"/>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="d4ab-11d4-a639-e028" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Transports" hidden="false" id="28fb-48a8-453b-e74a" targetId="2165-0890-2d9d-cc2e">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="b473-0d30-64f8-0224" includeChildSelections="true"/>
+            <constraint type="max" value="5" field="selections" scope="force" shared="true" id="b466-f8a2-1098-ffea" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Heavy Vehicles" hidden="false" id="885f-5a6c-c985-9566" targetId="0fe7-9352-51e1-360e">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="59a3-d6b5-36db-52c3" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="729c-f3d6-e03a-5a9a" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Specialists" hidden="false" id="2264-3042-a345-caec" targetId="2a8a-af91-1767-2a1a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6b24-a72f-e363-c02c" includeChildSelections="true"/>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="7db2-67ca-9264-62f0" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Reference Guide" hidden="false" id="b99a-78e4-f846-2cee" targetId="0498-9b29-311f-4058"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="75da-5cc0-697d-67e9" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="4cac-02ae-2c1a-c056" value="0"/>
+      </costs>
+    </forceEntry>
+    <forceEntry name="RPG Organisation Chart" hidden="false" id="fd3b-a4e6-37fb-367b">
+      <categoryLinks>
+        <categoryLink name="Expanded Pioneer Units" hidden="false" id="1eff-2f2a-df98-e9f5" targetId="default-category"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="1f46-d166-5416-40f9" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </forceEntry>
+    <forceEntry name="Terrain Chart" hidden="false" id="69f8-1eca-8d04-1f1e">
+      <categoryLinks>
+        <categoryLink name="Map Feature" hidden="false" id="df37-542c-28a8-a05c" targetId="bee2-7f3a-709f-786f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db87-dc8f-961c-5017"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2471-b3b0-713e-93cf"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Terrain Feature" hidden="false" id="42d0-5440-080a-dabd" targetId="e002-128d-6b64-ee7c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7358-eee6-b6b1-e149"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Anomaly" hidden="false" id="26a6-9960-3ee5-53c1" targetId="3c73-0f76-239e-2710">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="82ee-3b90-65b9-f8b1"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="381d-daa3-246b-1d05" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="4cac-02ae-2c1a-c056" value="0"/>
+      </costs>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Reference Guide" hidden="false" id="default-entry">
+      <categoryLinks>
+        <categoryLink targetId="0498-9b29-311f-4058" id="9a1a-6bc6-1e02-3a11" primary="true" name="Reference Guide"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Infantry Characteristic" hidden="false" id="a3ed-41b8-8d16-89cb">
+          <profiles>
+            <profile name="Infantry Characeristics" typeId="db54-88f2-eb1c-6770" typeName="Abilities" hidden="false" id="f329-821f-2e8e-c7ed">
+              <characteristics>
+                <characteristic name="Description" typeId="56ac-09e6-a6ce-498c">UT=Unit Type
+HP=Hitpoints
+DEF=Defense
+MS=Melee Skill
+BS=Ballistic Skill
+M=Movement
+D=Discipline
+W=Willpower
+Int=Intelligence
+Ini=Initiative
+S=Strength
+T=Toughness
+RWS=Ranged Weapon Slot
+MWS=Melee Weapon Slot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7a7-7607-b9a3-d836"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="236a-5cda-759a-745f"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mental Stat Tests" hidden="false" id="127c-be31-d5e3-a31f">
+          <profiles>
+            <profile name="&quot;Ledge&quot; Test" typeId="05d9-7a43-058b-301d" typeName="Mental Tests" hidden="false" id="6fc5-813c-68a5-3a0d">
+              <characteristics>
+                <characteristic name="Description" typeId="c3ce-c838-cb15-1206">Any Model within 1 inch of a ledge or pushed off of a ledge that is more than half their movement value. When a Model or a Model in a unit is moved back, which would result in them being pushed off an edge, or uses a movement action within 1 inch of a ledge, they must take an Initiative Test.
+
+
+Failure: The Model is placed at the bottom of the ledge they fell off of. They suffer a X WPN Dice AP0 Damage:1 MS:Y skill attack; X and Y are equal to the height in inches they fell. 
+
+
+Succession: The Model does not fall off the edge and can move up to 1 inch away from the ledge. If they are still near the ledge at the start of their next activation, they do not need to perform a test when they move at all; the effect of this immunity ends at the end of their activation.
+
+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="50% Casualty Test" typeId="05d9-7a43-058b-301d" typeName="Mental Tests" hidden="false" id="d9cb-161a-5c90-85f4">
+              <characteristics>
+                <characteristic name="Description" typeId="c3ce-c838-cb15-1206">When a Unit suffers 50%  Casualties of it&apos;s total model strength or when a Model (By itself) is at Half or Less HP, they roll a d6 and gain a Mental Status depending on the roll.
+
+1: Stunned
+2: Suppressed
+3: Pinned
+4-5: Performs a Fall Back Action
+6:Nothing Occures</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Overwhelmed" typeId="05d9-7a43-058b-301d" typeName="Mental Tests" hidden="false" id="41f8-a8cb-ad94-b212">
+              <characteristics>
+                <characteristic name="Description" typeId="c3ce-c838-cb15-1206">When a Unit suffers 50% Casualties of it&apos;s total model strength or when a Model (By itself) loses half or more HP in a single Shooting Action or Melee Combat, at the end, they must take a Willpower Test. If they fail, they gain a Status Effect below on a d6:
+1-3: They Perform a Fall Back Action.
+4-6: They Gain Panic!</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Fear Test" typeId="05d9-7a43-058b-301d" typeName="Mental Tests" hidden="false" id="92de-746a-af04-7483">
+              <characteristics>
+                <characteristic name="Description" typeId="c3ce-c838-cb15-1206">A Fear Test does not have it&apos;s own independent clause, rather things such as Special Rules, Clauses and Events will cause it. The Model/Unit(s) involved in a fear test must roll a d6, and gain a status effect below:
+1-2: They gain Death-Rattle for d3 Activations.
+3-4: They gain Panic.
+5-6: They perform a Fall-Back Movement.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="111d-dc0f-a6fa-fdc2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6df6-8a71-3e6b-81c5"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mental Statuses" hidden="false" id="3864-d141-dfc2-c5c5">
+          <infoLinks>
+            <infoLink name="Mental Status: Panic!" id="3bea-888c-2f8e-2a67" hidden="false" type="rule" targetId="6963-a800-f36a-e1dc"/>
+            <infoLink name="Mental Status: Pinnned" id="db38-cc7f-1564-ec6b" hidden="false" type="rule" targetId="2924-8dd5-a3e1-527e"/>
+            <infoLink name="Mental Status: Stunned" id="4852-0b57-633f-ff2b" hidden="false" type="rule" targetId="363d-3452-853c-93c8"/>
+            <infoLink name="Mental Status: Suppressed" id="6e3e-787e-24bd-f41c" hidden="false" type="rule" targetId="2118-d8bd-ab91-1efc"/>
+            <infoLink name="Fall Back" id="7013-6411-bab4-4a46" hidden="false" type="rule" targetId="ae96-ae47-bd63-adf7"/>
+            <infoLink name="Mental Status: Death-Rattle" id="a664-7a14-b252-0358" hidden="false" type="rule" targetId="921f-d74b-27a1-7e3c"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f26-89ad-fb06-519e"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ec8-b68e-deed-9ede"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <costTypes>
+    <costType name="Pts" id="points" defaultCostLimit="-1"/>
+    <costType name="Requisition" id="ff33-0eb3-3b78-7829" defaultCostLimit="-1"/>
+  </costTypes>
+  <profileTypes>
+    <profileType name="INFANTRY" id="a58b-8183-8b57-845c" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="UT" id="d0c3-cd30-159c-41ee"/>
+        <characteristicType name="HP" id="26e6-deb2-5052-a74f"/>
+        <characteristicType name="Def" id="7831-ff70-1145-ce60"/>
+        <characteristicType name="MS" id="3f4d-38e9-9633-76a1"/>
+        <characteristicType name="BS" id="36f6-a14d-1670-f31d"/>
+        <characteristicType name="M" id="6199-ffd0-7221-bdc4"/>
+        <characteristicType name="D" id="4ae7-22fc-d553-d923"/>
+        <characteristicType name="W" id="6756-14bb-043e-2aa8"/>
+        <characteristicType name="Int" id="6c6d-9ebe-a779-155b"/>
+        <characteristicType name="Ini" id="0698-48b0-7460-9a7e"/>
+        <characteristicType name="S" id="acfe-3039-aa5c-e541"/>
+        <characteristicType name="T" id="2fba-f111-39dc-c7b4"/>
+        <characteristicType name="RWS" id="db0e-ca2f-9e5e-e143"/>
+        <characteristicType name="MWS" id="424d-378d-20be-20d3"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Wargear Item" id="85c6-4a1e-d9b1-8d7f" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Description" id="7494-924d-d974-76f8"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Abilities" id="db54-88f2-eb1c-6770" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Description" id="56ac-09e6-a6ce-498c"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Keywords" id="8247-17be-ec45-0d2e" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Keyword(Faction)" id="db44-eefc-7fea-1fb6"/>
+        <characteristicType name="Keyword(Basic)" id="2345-57ce-73f7-f432"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Weapon" id="d233-0653-f762-e538" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Range" id="b3c1-2707-e74d-88f6"/>
+        <characteristicType name="S" id="6997-f9f2-6f9b-ef3c"/>
+        <characteristicType name="AP" id="8c5e-9516-a499-63f5"/>
+        <characteristicType name="D" id="7f27-f5c3-9c54-de65"/>
+        <characteristicType name="Abilities" id="cfcb-ec22-834e-7336"/>
+        <characteristicType name="WPN Dice" id="0255-21c0-4ef7-efa2"/>
+        <characteristicType name="BS/MS" id="b356-3224-2f16-54c7"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Mental Tests" id="05d9-7a43-058b-301d" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Description" id="c3ce-c838-cb15-1206"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Vehicle" id="19f2-ad80-cde0-f446" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Front" id="2e18-0c17-d5ef-a03c"/>
+        <characteristicType name="Unit Type" id="afd5-717f-3f8b-54c8"/>
+        <characteristicType name="BS" id="2035-0779-92cc-5b4c"/>
+        <characteristicType name="MS" id="24ee-efbd-4b87-baef"/>
+        <characteristicType name="Side" id="dda7-ef77-4f5b-4ec7"/>
+        <characteristicType name="Rear" id="d9e7-69e3-7001-3608"/>
+        <characteristicType name="HP" id="e07a-44d5-a28b-fccb"/>
+        <characteristicType name="Transport Capacity" id="1aa8-f234-622f-e75f"/>
+        <characteristicType name="Hull" id="ee8f-5935-2369-292c"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Fortification/Buildings" id="0ae8-9878-0abc-a394" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Unit Type" id="93c2-909e-369d-e424"/>
+        <characteristicType name="DEF" id="5837-7ca6-f841-56f1"/>
+        <characteristicType name="HP" id="30d2-7ca6-8aa5-9bd3"/>
+        <characteristicType name="Transport Capacity" id="349e-b068-411d-f8ff"/>
+        <characteristicType name="Hull" id="e652-a26c-e664-2301"/>
+        <characteristicType name="Firing Points" id="828a-b128-e2bc-b4e3"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Anomalies" id="a43d-8b65-0808-c7b2" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Description" id="ec4f-7524-af44-7bce"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Lore" id="0d83-d584-6c16-6b6f" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Lore" id="8f51-2099-f67c-300e"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Terrain Feature" id="fed3-9148-5258-a028" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Terrain Name" id="aa90-71fa-e8fb-2ead"/>
+        <characteristicType name="Terrain Type" id="6451-8783-55cc-50f6"/>
+        <characteristicType name="Terrain Special Rules" id="85de-dbe8-2f67-10ea"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Map Feature" id="cd80-0960-0624-8eba" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Map Name" id="0639-cb4c-b4b7-7460"/>
+        <characteristicType name="Map Type" id="8105-e4c2-53a4-c814"/>
+        <characteristicType name="Map Special Rules" id="9ec7-70bb-e73b-28f9"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <sharedRules>
+    <rule name="Initiative Edge Test" id="7f30-6cbb-5ed4-229e" hidden="false">
+      <description>When a Model or a Model in a unit is moved back, which would result in them being pushed off an edge, or uses a movement action within 1 inch of a ledge, they must take an Initiative Test.
+
+
+Failure: The Model is placed at the bottom of the ledge they fell off of. They suffer a X WPN Dice AP0 Damage:1 MS:Y skill attack; X and Y are equal to the height in inches they fell. 
+
+
+Succession: The Model does not fall off the edge and can move up to 1 inch away from the ledge. If they are still near the ledge at the start of their next activation, they do not need to perform a test when they move at all; the effect of this immunity ends at the end of their activation.</description>
+    </rule>
+    <rule name="Ballistic" id="09f0-5941-f550-9a12" hidden="false">
+      <description>+1 to WPN Dice when performing a Shooting Action within half range of this weapon&apos;s profile.</description>
+    </rule>
+    <rule name="Rifle" id="d608-bce2-cf48-716c" hidden="false">
+      <description>Gain +1 To Ballistic Skill during a Shooting Action if this Model/Unit has not moved this activation. This weapon fills 1 Ranged Weapon Option on a model.</description>
+    </rule>
+    <rule name="Automatic" id="4b0f-abf5-ab66-261e" hidden="false">
+      <description>A model with this weapon may choose to attack again after concluding a shooting action; two shooting actions in one action. However that model cannot move after shooting a second time.</description>
+    </rule>
+    <rule name="Pistol" id="219a-5748-263e-78bf" hidden="false">
+      <description>A Pistol may be used while in Melee Combat. A Pistol has the Moving Fire(0) rule. A singular pistol does not occupy a Ranged Weapon Slot, two Pistols do occupy a Ranged Weapon Slot.</description>
+    </rule>
+    <rule name="Moving Fire(X)" id="ceeb-ed5b-73cd-7445" hidden="false">
+      <description>When this unit performs a movement action, it may use a weapon with Moving Fire (X) during it&apos;s movement, and may target and perform a shooting action against any valid enemy model/unit from the start to end of it&apos;s movement action. The Shooting action (BS) is reduced by (X).</description>
+    </rule>
+    <rule name="Submachine Gun" id="415e-a0f6-f497-854b" hidden="false">
+      <description>A Submachine Gun has the Moving Fire(1) rule.This weapon fills 1 Ranged Weapon Option on a model.This weapon fills 1 Ranged Weapon Slot on a model.</description>
+    </rule>
+    <rule name="Needle" id="ee87-70d4-0d48-227a" hidden="false">
+      <description>This weapon does not trigger overwatch as result of being targeted by a (BS) weapon. Past half range of this weapon&apos;s profile, suffer -1 BS when you perform a shooting action.</description>
+    </rule>
+    <rule name="Blast Radius(X)" id="d912-27fd-8843-4efa" hidden="false">
+      <description>All models within a X&quot; radius of the target model must take an test on a d10: Needing a result equal or below to their Movement and Initiative Combined. Those who fail suffer damage equal to the weapon&apos;s damage value.</description>
+    </rule>
+    <rule name="Pinning Fire(X)" id="7f8a-4a15-5e47-bfe3" hidden="false">
+      <description>When one or more WPN dice from this weapon hits an enemy unit or model, that unit/model must suffer a Pinning Test but with a negative modifier of (X) to their discipline d10 roll.</description>
+    </rule>
+    <rule name="Suppressive Fire(X)" id="8793-0569-5fad-8e67" hidden="false">
+      <description>When one or more WPN dice from this weapon hits an enemy unit or model, that unit/model must suffer a Suppression Test but with a negative modifier of (X) to their discipline d10 roll.</description>
+    </rule>
+    <rule name="One-Handed" id="f3e5-5ab7-e9a6-a257" hidden="false">
+      <description>A weapon with this special rule may be used in a Melee Attack action after the Attack has ended. If a model has two weapons that have the One-Handed keyword, they may be both used for a shooting action. If a model has multiple One-Handed keyword weapons, only one can be chosen for the additional attack during Melee. For identical weapons, unless specified, their special rules only apply once.</description>
+    </rule>
+    <rule name="Limited Use(X)" id="6485-96d5-df66-3fe6" hidden="false">
+      <description>An item with this special rule can only be used (X) times per game.</description>
+    </rule>
+    <rule name="Carbine" id="d442-54dc-7844-d5b1" hidden="false">
+      <description>This Weapon has the Moving Fire (2) Rule.This weapon fills 1 Ranged Weapon Option on a model.</description>
+    </rule>
+    <rule name="Overheat" id="ec51-d389-9c3e-c552" hidden="false">
+      <description>A weapon with this special rule does not have a fixed Weapon Dice count; only able to use up to (X) WPN Dice. For example, Overheat(3) means a total of 3 WPN Dice can be used before the following occurs: After (X) WPN Dice has been used, this weapon goes into Overheated. An Overheated weapon cannot be fired for any Overwatch or Shooting Actions until the end of their next activation. For example, a Weapon that overheated on Round 1 may be fired against on Round 3.</description>
+    </rule>
+    <rule name="Overcharged(X)" id="1312-52ca-5a87-bd9e" hidden="false">
+      <description>A weapon with this special rule must roll a d6 for every WPN Dice it rolled in the &quot;Hit&quot; step, and for each result of 1, that model suffers (X) Damage. If a model with a weapon that has this special rule is in a unit, if it dies from it&apos;s Overcharged d6s and some d6s are remaining, then you may discard them.</description>
+    </rule>
+    <rule name="Light Machine Gun" id="51dc-4ac2-0365-0ca6" hidden="false">
+      <description>A weapon with this special rule does not suffer any penalty unlike other Machine Guns. This weapon fills 1 Ranged Weapon Option on a model, only a weapon with the Pistol keyword can be taken in addition to it. Only Melee Weapons with the Concealed Weapon type may be equipped to this model.</description>
+    </rule>
+    <rule name="Shotgun" id="9c12-adba-e46d-ecb8" hidden="false">
+      <description>A weapon with this special rule gains +1 AP and Strength when the target model/unit is within half range. A Shotgun has the Moving Fire(1) rule. This weapon fills 1 Ranged Weapon Slot on a model.</description>
+    </rule>
+    <rule name="Concealed Weapon" id="05b5-1042-6428-fc94" hidden="false">
+      <description>A Concealed Weapon does not occupy a Melee Weapon Slot. A singular Concealed Weapon does not occupy a Melee Weapon Slot, two Concealed Weapons do occupy Melee Weapon Slot; only one may be selected for Melee Attacks. A model using a Concealed Weapon for Melee has +1 Initiative.</description>
+    </rule>
+    <rule name="Cilian Iron Claws" id="d246-d923-3de0-af22" hidden="false">
+      <description>Wildworld Pioneers: A Model/Unit with this special rule may ignore the Penalties of a Forest or Swamp Terrain Feature.
+
+</description>
+    </rule>
+    <rule name="Luptal Wolves" id="523a-7a8b-197e-84e5" hidden="false">
+      <description>Lunar Pioneers: A Model/Unit with this special rule may ignore the Penalties of a Void-BorneTerrain Feature.
+
+</description>
+    </rule>
+    <rule name="Energy" id="0f48-2fbf-a744-86f6" hidden="false">
+      <description>A weapon with this rule ignores the Toughness Characteristic of the target model/unit.</description>
+    </rule>
+    <rule name="Bayonet" id="231b-4e6a-796b-9c64" hidden="false">
+      <description>A weapon with this special rule may always be equipped to a model that has a weapon that allows a bayonet. A bayonet may be chosen as a melee weapon during a charge action, if so, it gains +1 Strength until the end of that Melee Attack.</description>
+    </rule>
+    <rule name="Melee" id="d484-a2b1-938d-1274" hidden="false">
+      <description>A Melee, or Melee Weapon, can be selected to be used for Melee Combat, where two models/units engage in Melee Combat. A Melee Weapon ignores the &quot;Hit&quot; Dice step and goes straight to the &quot;Wound&quot; Dice Step of WPN Dice. Range on Melee Weapons is the range that you can move the model to an enemy model to reach base-to-base, where you carry out Melee Combat. If you charge, you double your movement value and then use the weapon&apos;s range to move into base-to-base. Melee Combat descends from the highest initiative down to the lowest; 10 to 1. If two units/models/models in a unit have the same initiative, then the unit that declared and used a action to perform a Melee Attack will attack first. For example, if Unit 1 and Unit 2 are fighting with both units being at Initiative 4, since Unit 1 declared the Melee Action, then they will resolve their Initiative 4 Attacks first.</description>
+    </rule>
+    <rule name="Crushing Blow" id="5973-4ebd-6d2c-2666" hidden="false">
+      <description>A Melee weapon with this special rule may reduce all of it&apos;s WPN Dice count to 1 and reduce the model&apos;s initiative by the dice reduced, however the weapon&apos;s Strength is increased by the amount of the dice reduced.</description>
+    </rule>
+    <rule name="Duelist(X)" id="d652-33fa-4a79-e232" hidden="false">
+      <description>A Melee weapon with this special rule when chosen to be used in a Melee Attack, the model equipped with this may reduce it&apos;s WPN dice count by (X) but increase it&apos;s Initiative by (X).</description>
+    </rule>
+    <rule name="Reach" id="3a1e-a90c-f656-d9ef" hidden="false">
+      <description>A Weapon with this special rule does not need to be in base-to-base for Melee Attacks.It may use it&apos;s range characteristic as normally; rather than moving into Base-to-Base with an Enemy Model or Unit.</description>
+    </rule>
+    <rule name="Banner" id="1d9f-aeea-65c9-c6c1" hidden="false">
+      <description>Any Model/Unit within 12 and line of sight of a Banner adds +1 to their Discipline and Willpower Stat. If there are multiple Banners or variants of banners present, choose one to gain benefit from: For example, you do not gain +4 Discipline and Willpower from 4 Banners, only one of your choice.</description>
+    </rule>
+    <rule name="Retinu" id="cab9-3396-abd6-ff82" hidden="false">
+      <description>A</description>
+    </rule>
+    <rule name="Challenger" id="089f-8aef-425e-a9d8" hidden="false">
+      <description>Challenger: A Unit with the Challenger Special Rule may attempt to issue a Challenge for their activation. If a Character with this special rule attaches to a unit without the special rule, then the unit gains the Special Rule.
+
+
+</description>
+    </rule>
+    <rule name="Challenge" id="4367-86cd-8a27-2bd3" hidden="false">
+      <description>Challenge: At the start of this Unit&apos;s activation, it may use it&apos;s activation to issue a challenge to an Enemy Unit within line of sight. That enemy unit must be in Charge or Melee Weapon distance. The Enemy player may accept or deny the Challenge. If the enemy decides to deny, they must take a Willpower Test. 
+
+
+If the Enemy Unit accepts the Challenge, every model in that unit without the Challenger special rule must take a test (using their morale value) to participate in the challenge. Enemy models with the Challenger special rule do not have to make this test.
+After deciding those participating in a challenge, no other enemy or friendly unit can perform any attacks against the units participating in the challenge.
+Proceed (MS) combat as normal.
+The unit that removes the most models from the other enemy unit and survives is the winner, earning 1 Victory Point.</description>
+    </rule>
+    <rule name="Glory in Combat (X)" id="da71-7b63-a1bc-127f" hidden="false">
+      <description>A Model/Unit with the Glory in Combat(X) special rule earns Victory Points equal to the number of brackets whenever that Model/unit destroys an enemy unit.If there is multiple Glory in Combat(X) in a unit, the highest is earned; the others are ignored.
+
+</description>
+    </rule>
+    <rule name="Orderlies" id="9016-755b-f5bc-5a87" hidden="false">
+      <description>A Model or Unit with this special rule is treated as a Retinue. Orderlies share the same slot as the CHARACTER it is joined to. If an attack 
+</description>
+    </rule>
+    <rule name="Precision" id="4cdb-6787-de2a-2c6d" hidden="false">
+      <description>You may allocate damage to any chosen model in an enemy unit. However, any left-over damage after the chosen model is killed is ignored.</description>
+    </rule>
+    <rule name="Conscript" id="fead-0cff-04f0-19b4" hidden="false">
+      <description>Any Model or Unit that has this Special Rule rolls 2d10 for their Willpower and Discipline tests; choosing the worst out of the two.</description>
+    </rule>
+    <rule name="Inexperienced" id="d028-3e95-ee10-251b" hidden="false">
+      <description>A Unit or Model with this special rule suffers from the modifiers below:
+• A Unit with this special rule suffers a fall back test if they take more casualties than inflicted in Melee Combat.
+• A Unit with this special rule suffers a -1 to their Ballistic Skill if their shooting target is more than half their weapon&apos;s range away from them.
+
+</description>
+    </rule>
+    <rule name="Gunline (X)" id="1837-df5b-704d-71a1" hidden="false">
+      <description>For every (X) models armed with this weapon, gain an additional +1 WPN Dice when using it.
+
+Example: 14 Models armed with a rifle that both have 1 WPN Dice and the gunline(2) keyword, means that they&apos;ll get to add 7 more WPN Dice to their original total of 14; making it 21.</description>
+    </rule>
+    <rule name="Bodyguard" id="9047-80fb-3b18-41df" hidden="false">
+      <description>A Unit with the Bodyguard Special Rule may be attached to any friendly Character model that is not attached to a Unit or Retinue already, and may always participate in Challenges even though they themselves do not have the Challenger keyword.</description>
+    </rule>
+    <rule name="Deflagration" id="32cd-62dc-faa7-e40c" hidden="false">
+      <description>After concluding an attack with this weapon, count the number of unsaved damage caused by this weapon on the enemy target. Immediately resole a number of additional WPN Dice that automatically passed the &quot;Hit&quot; Step of WPN Dice rolls, and are not effected by any modifiers whatsoever unless stated otherwise. These additional hits do not inflict more hits by this special rule.</description>
+    </rule>
+    <rule name="Unwieldy Weapon" id="def8-6fb8-62fd-9dbc" hidden="false">
+      <description>A weapon with this special rule that is equipped to a model reduces that model&apos;s Initiative characteristic to 1 for the sake of Melee Combat. 
+If this keyword is on a (BS) Weapon, then the model equipped with this weapon also suffers a -1 BS penalty whenever it performs a shooting action after a movement action.</description>
+    </rule>
+    <rule name="Heavy" id="621b-e546-879e-9c41" hidden="false">
+      <description>A (BS) Weapon with this special rule gains +1 BS if the Model equipped with it has not performed any movement action during it&apos;s current activation.</description>
+    </rule>
+    <rule name="Vehicle (Special Rule)" id="5da9-2b79-070d-86c6" hidden="false"/>
+    <rule name="Vehicle Ramming Action" id="bd48-bcfa-05cd-dbd3" hidden="false">
+      <description>Rather than performing a Charge action, a Vehicle instead performs a Ramming Action. 
+
+
+To perform a Ramming attack, turn/pivot the Vehicle on the spot to face the direction you intend to move it in, and just like a charge action, it must be able to target an elgible enemy unit prior to declaring a charge action. However, a Ramming attack may also target fortifications. A Ramming Action&apos;s Strength is based on the Armor Value of the Front Armor Facing of the Ramming Vehicle with automatic WPN Dice hits equal to the amount of models in the Enemy Unit that was rammed.
+
+If the Ramming vehicle comes into contact with an Enemy Vehicle or Fortifications, you use the Armor facing that is in contact with the Ramming vehicle, and has 1 WPN Dice that automatically hits.
+
+Any INFANTRY Unit that are the target of a Ramming Attack must take a Discipline Check, and if they fail, they Fall-Back.
+</description>
+    </rule>
+    <rule name="Transport(X)" id="a4a3-37b1-97e7-1704" hidden="false">
+      <description>Vehicle units with this special rule may have units transported inside of them.
+
+
+A Vehicle of this special rule may have (X) INFANTRY Models embarked inside of it, and </description>
+    </rule>
+    <rule name="Crewmen(X)" id="e967-c565-eb09-bce2" hidden="false">
+      <description>This special rule is to represent the crew of any vehicle, field gun or any other weapon.
+
+The Crewmen is one unit of (X) Models, that can always disembark and Re-Embark of the Unit they crew; following the exact same rules of Disembarking and Re-Embarking like normal units would do with Transports.
+
+Units without their dedicated crew cannot perform any actions whatsoever until they Re-Embark into the vehicle again.
+
+
+For example, an Artillery Platform cannot be used until the Crew Re-Embarks the Artillery Platform again.</description>
+    </rule>
+    <rule name="Embarking/Disembarking" id="14a8-26e1-aca6-718d" hidden="false">
+      <description/>
+    </rule>
+    <rule name="Artillery" id="bcfe-8655-8d06-f858" hidden="false">
+      <description>A Model with this special rule has the Indirect Fire Special Rule.
+Damage: An Artillery Model must be targeted over it&apos;s crewmen, special rules such as Blast Radius and Precision Ignores this. For every unsaved WPN Dice in the &quot;Wound&quot; step, roll a d10 on the Artillery Damage Table.
+Movement Restriction:An Artillery Model that has performed a movement action during it&apos;s activation cannot be fired again until it&apos;s next activation.
+Crewmen Weapons:Crewmen of an Artillery Model may either choose to use their own weapons on their models or the Artillery Piece they are crewing.</description>
+    </rule>
+    <rule name="Artillery Damage Table" id="4faf-af06-c672-d5c7" hidden="false">
+      <description>If an Artillery Model suffers any unsaved WPN Dice damage, you roll a d10; adding +1 for every Unsaved WPN Dice after the first. For example, 7 unsaved WPN dice equals a d10 with a +6 Modifier.
+
+
+1-2: Nothing Happens!
+3-4: Rattling Fire:The Artillery Crewmen suffer a Pinning Test.
+5-6: Crew Shaken: The Crew of the Artillery Piece takes a Discipline Test, if they fail, they cannot perform any attack via Indirect Fire until their next activation.
+7-9:Mechanical Damage: Any shooting attacks with an Artillery Model&apos;s weapon profile worsens all &quot;Hit&quot; WPN Dice rolls by 1. This Penalty stays for the rest of the game until repaired.
+10: On Fire: The Artillery Model burst out in flames, all Crewmen that are manning the weapon suffer 1 Automatic WPN Dice Hit with Strength equal to the Artillery Weapon&apos;s Strength. Any Crewmen that survive performs a Fall-Back in any direction away from the Artillery Model.</description>
+    </rule>
+    <rule name="Mental Status: Suppressed" id="2118-d8bd-ab91-1efc" hidden="false">
+      <description>A Model/Unit that is Suppressed cannot perform any Shooting Actions and cannot perform Overwatch Actions until the end of their Activation. A Unit can remove Suppressed with a Discipline Test.</description>
+    </rule>
+    <rule name="Mental Status: Stunned" id="363d-3452-853c-93c8" hidden="false">
+      <description>Any Model or Unit that is Pinned must spend it&apos;s next activation removing the status effect with a Willpower Test. If it succeeds, then it can activate with 1 action remaining. If it fails, the Stunned is removed at the end of their activation.</description>
+    </rule>
+    <rule name="Mental Status:Fallen Back" id="eebc-1415-8780-adf0" hidden="false">
+      <description>This Mental Status is applied to any Model/Unit that has performed the Fall Back Action. 
+
+A Model/Unit with this Mental Status cannot perform any Movement action whatsoever until the end of their activation, or they performed a Fall-Back after their activation ended, they cannot move until the end of their next activation instead.</description>
+    </rule>
+    <rule name="Mental Status: Panic!" id="6963-a800-f36a-e1dc" hidden="false">
+      <description>A Model/Unit with this Mental Status cannot perform any action besides performing Fall Back movements equal to their movement value. They continue this until they pass a Willpower Test which is taken at the end of their activation.</description>
+    </rule>
+    <rule name="Mental Status: Pinnned" id="2924-8dd5-a3e1-527e" hidden="false">
+      <description>A Model/Unit that is Suppressed halve their Ballistic Skill and Melee Skill(Rounding UP), and cannot perform Overwatch Actions. A Unit can remove Pinned with a Discipline Test.</description>
+    </rule>
+    <rule name="Fall Back" id="ae96-ae47-bd63-adf7" hidden="false">
+      <description>A Fall Back is a forced movement action.
+
+A Fall Back forces a Model/Unit to move directly backwards on a d6, and stops it&apos;s movement short if there is a Piece of Terrain, Unit, etc. in the way.</description>
+    </rule>
+    <rule name="Mental Status: Death-Rattle" id="921f-d74b-27a1-7e3c" hidden="false">
+      <description>Any Model or Unit that is Death-Rattled cannot perform any action whatsoever. Any Melee Combat that targets and causes any amount of unsaved WPN Dice will remove this Model/Unit in it&apos;s entirety. </description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Pioneer Rifle" hidden="false" id="f27c-ea9d-17de-546d">
+      <profiles>
+        <profile name="Pioneer Rifle" typeId="d233-0653-f762-e538" typeName="Weapon" hidden="false" id="5257-c17f-a9de-b9c8">
+          <characteristics>
+            <characteristic name="Range" typeId="b3c1-2707-e74d-88f6">24</characteristic>
+            <characteristic name="S" typeId="6997-f9f2-6f9b-ef3c">4</characteristic>
+            <characteristic name="AP" typeId="8c5e-9516-a499-63f5">1</characteristic>
+            <characteristic name="D" typeId="7f27-f5c3-9c54-de65">1</characteristic>
+            <characteristic name="Abilities" typeId="cfcb-ec22-834e-7336">Automatic, Ballistic, Rifle</characteristic>
+            <characteristic name="WPN Dice" typeId="0255-21c0-4ef7-efa2">3</characteristic>
+            <characteristic name="BS/MS" typeId="b356-3224-2f16-54c7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ballistic" id="2d46-1f44-63dd-2677" hidden="false" type="rule" targetId="09f0-5941-f550-9a12"/>
+        <infoLink name="Rifle" id="6b5a-72b4-c621-c7d7" hidden="false" type="rule" targetId="d608-bce2-cf48-716c"/>
+        <infoLink name="Automatic" id="55d7-0069-cec8-68d6" hidden="false" type="rule" targetId="4b0f-abf5-ab66-261e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Anomaly: Flux-Star" hidden="false" id="ee70-e6d7-4b09-4e97">
+      <profiles>
+        <profile name="Violent Flux" typeId="a43d-8b65-0808-c7b2" typeName="Anomalies" hidden="false" id="11c0-1a7a-8145-22e9">
+          <characteristics>
+            <characteristic name="Description" typeId="ec4f-7524-af44-7bce">When a Model ends a movement within 6 inches of a Flux-Star, it must take an d10 Test, rolling equal or under: Combining both Initiative and Toughness. If the result is </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Anomaly: Flux-Star" typeId="d233-0653-f762-e538" typeName="Weapon" hidden="false" id="a3e8-9a0f-6a69-3740">
+          <characteristics>
+            <characteristic name="Range" typeId="b3c1-2707-e74d-88f6">Radius</characteristic>
+            <characteristic name="S" typeId="6997-f9f2-6f9b-ef3c"/>
+            <characteristic name="AP" typeId="8c5e-9516-a499-63f5"/>
+            <characteristic name="D" typeId="7f27-f5c3-9c54-de65"/>
+            <characteristic name="Abilities" typeId="cfcb-ec22-834e-7336"/>
+            <characteristic name="WPN Dice" typeId="0255-21c0-4ef7-efa2"/>
+            <characteristic name="BS/MS" typeId="b356-3224-2f16-54c7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pinning Test" hidden="false" id="1256-d498-55e5-429d">
+      <profiles>
+        <profile name="Pinning/Pinned" typeId="05d9-7a43-058b-301d" typeName="Mental Tests" hidden="false" id="440c-47e9-d4cc-710d">
+          <characteristics>
+            <characteristic name="Description" typeId="c3ce-c838-cb15-1206">If a Unit would suffer 25% or 50% of it&apos;s model count due to a shooting attack, it must take a Pinning Test. A Pinning Test is resolved on a d10 with the result being equal or below to the highest Discipline value in the Unit. If they fail, their movement value is reduced to (1) and they cannot perform a charge action until they perform and pass a Mental Test Resolve action to do so.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="MK-11 SAPPA" hidden="false" id="05a9-e3c2-0d89-4ef8">
+      <profiles>
+        <profile name="MK1 SAPPA" typeId="85c6-4a1e-d9b1-8d7f" typeName="Wargear Item" hidden="false" id="d618-c8fa-50d0-c913">
+          <characteristics>
+            <characteristic name="Description" typeId="7494-924d-d974-76f8">MK1 SAPPA provides a +1 to Toughness, Strength and DEF. MK1 Sappa has a 7+ Primary Save against BALLISTIC weapons.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="MK-1b &quot;Dome-Head&quot; SAPPA" hidden="false" id="88a7-3565-436d-437f">
+      <profiles>
+        <profile name="MK-1b &quot;Dome-Head&quot; SAPPA" typeId="85c6-4a1e-d9b1-8d7f" typeName="Wargear Item" hidden="false" id="2cbe-f8ae-e057-2638">
+          <characteristics>
+            <characteristic name="Description" typeId="7494-924d-d974-76f8">MK-1b &quot;Dome-Head&quot; SAPPA provides a 9+ Primary Save against Ballistic Weapons and confers a 6+ Primary Save against Environmental Damage and Radiation Weapons.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="MK-1c &quot;Hex-Glass&quot; SAPPA" hidden="false" id="e973-88b3-3352-08a2">
+      <profiles>
+        <profile name="MK-1c &quot;Hex-Glass&quot; SAPPA" typeId="85c6-4a1e-d9b1-8d7f" typeName="Wargear Item" hidden="false" id="f75f-976f-64aa-dcb7">
+          <characteristics>
+            <characteristic name="Description" typeId="7494-924d-d974-76f8">MK-1c &quot;Hex-Glass&quot; SAPPA provides a 7+ Primary Save against Energy Weapon Attacks and when a Energy Weapon targets this Model/Unit, it loses the Energy Weapon rule against it.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pioneer Light Machine Gun" hidden="false" id="9b0a-c1c1-ea32-f174">
+      <profiles>
+        <profile name="Pioneer Light Machine Gun" typeId="d233-0653-f762-e538" typeName="Weapon" hidden="false" id="7579-3d5a-14cd-219e">
+          <characteristics>
+            <characteristic name="Range" typeId="b3c1-2707-e74d-88f6"/>
+            <characteristic name="S" typeId="6997-f9f2-6f9b-ef3c"/>
+            <characteristic name="AP" typeId="8c5e-9516-a499-63f5"/>
+            <characteristic name="D" typeId="7f27-f5c3-9c54-de65"/>
+            <characteristic name="Abilities" typeId="cfcb-ec22-834e-7336">Automatic, Suppressive(2), Heavy,</characteristic>
+            <characteristic name="WPN Dice" typeId="0255-21c0-4ef7-efa2">5</characteristic>
+            <characteristic name="BS/MS" typeId="b356-3224-2f16-54c7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sarpenton Conglomerate" hidden="false" id="8429-87f8-ce24-f42d">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e0d-309e-3e99-cd8c"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1921-dac9-5c9c-a70b"/>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="77c1-7853-3070-9019"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="779d-76c3-4788-299b">
+      <profiles>
+        <profile name="Bayonet" typeId="d233-0653-f762-e538" typeName="Weapon" hidden="false" id="4339-cf07-ff1c-125d">
+          <characteristics>
+            <characteristic name="Range" typeId="b3c1-2707-e74d-88f6">1</characteristic>
+            <characteristic name="S" typeId="6997-f9f2-6f9b-ef3c">User</characteristic>
+            <characteristic name="AP" typeId="8c5e-9516-a499-63f5">0</characteristic>
+            <characteristic name="D" typeId="7f27-f5c3-9c54-de65">1</characteristic>
+            <characteristic name="Abilities" typeId="cfcb-ec22-834e-7336">Bayonet, Melee</characteristic>
+            <characteristic name="WPN Dice" typeId="0255-21c0-4ef7-efa2">1</characteristic>
+            <characteristic name="BS/MS" typeId="b356-3224-2f16-54c7">MS</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bayonet" id="7664-7d75-3b7c-353f" hidden="false" type="rule" targetId="231b-4e6a-796b-9c64"/>
+        <infoLink name="Melee" id="91f5-1e06-9ef6-87d1" hidden="false" type="rule" targetId="d484-a2b1-938d-1274"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Army Commander" hidden="false" id="fe23-355a-9744-a453">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7887-8e60-257f-fda2" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="73bd-51e3-4fff-6e64" includeChildSelections="true"/>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="0692-9ba7-ca13-b971" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="beb3-4068-c93b-e820" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2880-1cab-5811-17f3" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Pioneer Company &amp; Clans" id="12d6-51ef-6609-b40f" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cilian Iron Claws" hidden="false" id="3952-78ad-7f0c-218b">
+          <infoLinks>
+            <infoLink name="New Info (link)" id="3d4e-83ec-f1fe-7a94" hidden="false" type="rule"/>
+          </infoLinks>
+          <rules>
+            <rule name="Armory of the Iron Claws" id="183a-9783-0310-dee5" hidden="false">
+              <description/>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Luptal Wolves" hidden="false" id="ad86-007c-4f91-e810">
+          <infoLinks>
+            <infoLink name="New Info (link)" id="73f0-b1bf-2e9c-94f6" hidden="false" type="rule"/>
+          </infoLinks>
+          <rules>
+            <rule name="Armory of the Luptal Wolves" id="e604-fb02-14f3-a758" hidden="false">
+              <description/>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ed1-1865-5eae-45ab"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e7b-731c-e713-83d0"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</gameSystem>
