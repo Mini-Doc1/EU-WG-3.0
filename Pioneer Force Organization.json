@@ -1,0 +1,13 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "0eff-5474-ea2b-3d08",
+    "name": "Luptal Wolves",
+    "gameSystemId": "sys-3396-9326-565c-5fb6",
+    "gameSystemRevision": 2,
+    "revision": 5,
+    "battleScribeVersion": 2.03,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema"
+  }
+}

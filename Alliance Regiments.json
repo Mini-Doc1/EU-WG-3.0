@@ -1,0 +1,2501 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "911d-4422-882c-fd0b",
+    "name": "Alliance Regiments",
+    "gameSystemId": "sys-3396-9326-565c-5fb6",
+    "gameSystemRevision": 11,
+    "revision": 4,
+    "battleScribeVersion": 2.03,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "sharedSelectionEntries": [
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Alliance Infantry Squad",
+        "hidden": false,
+        "id": "1f58-500a-eb44-5830",
+        "selectionEntryGroups": [
+          {
+            "name": "Alliance Riflemen",
+            "id": "5356-d621-c0a6-2417",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Alliance Rifleman",
+                "hidden": false,
+                "id": "5c27-0924-8d59-e501",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Infantry Ranged Weapons",
+                    "hidden": false,
+                    "id": "cc12-b756-b956-b2fc",
+                    "type": "selectionEntryGroup",
+                    "targetId": "d2a1-de53-c951-8224"
+                  },
+                  {
+                    "import": true,
+                    "name": "Bayonet",
+                    "hidden": false,
+                    "id": "e2d2-d830-1859-f0e9",
+                    "type": "selectionEntryGroup",
+                    "targetId": "ffe3-24cc-79ba-74f4"
+                  },
+                  {
+                    "import": true,
+                    "name": "Infantry Equipment",
+                    "hidden": false,
+                    "id": "b7b2-6a53-07ee-f806",
+                    "type": "selectionEntryGroup",
+                    "targetId": "d7ad-7279-5469-fdcd",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "1f58-500a-eb44-5830",
+                        "shared": true,
+                        "id": "8120-86d3-9d97-1c15",
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "import": true,
+                    "name": "Alliance Light Armor",
+                    "hidden": false,
+                    "id": "32ae-9c01-740f-bb80",
+                    "type": "selectionEntry",
+                    "targetId": "47fe-2ce8-e466-feba",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "fca6-d956-143b-c5cd"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "dd47-4adc-5a20-fdd4"
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Pts",
+                    "typeId": "points",
+                    "value": 1
+                  },
+                  {
+                    "name": "Requisition",
+                    "typeId": "ff33-0eb3-3b78-7829",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "53ff-f08a-1b0c-ee84"
+                  },
+                  {
+                    "type": "max",
+                    "value": 8,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "bf54-2c04-e57c-23d7"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Alliance Rifleman",
+                    "typeId": "a58b-8183-8b57-845c",
+                    "typeName": "INFANTRY",
+                    "hidden": false,
+                    "id": "5b5e-d10d-936a-654a",
+                    "characteristics": [
+                      {
+                        "name": "UT",
+                        "typeId": "d0c3-cd30-159c-41ee",
+                        "$text": "INFANTRY"
+                      },
+                      {
+                        "name": "HP",
+                        "typeId": "26e6-deb2-5052-a74f",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Def",
+                        "typeId": "7831-ff70-1145-ce60",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "MS",
+                        "typeId": "3f4d-38e9-9633-76a1",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "36f6-a14d-1670-f31d",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "M",
+                        "typeId": "6199-ffd0-7221-bdc4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "4ae7-22fc-d553-d923",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "6756-14bb-043e-2aa8",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Int",
+                        "typeId": "6c6d-9ebe-a779-155b",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Ini",
+                        "typeId": "0698-48b0-7460-9a7e",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "acfe-3039-aa5c-e541",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "2fba-f111-39dc-c7b4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "RWS",
+                        "typeId": "db0e-ca2f-9e5e-e143",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "MWS",
+                        "typeId": "424d-378d-20be-20d3",
+                        "$text": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Alliance Sergeant",
+            "id": "ae39-33b4-916a-8178",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Alliance Sergeant",
+                "hidden": false,
+                "id": "043a-0018-91db-ffe5",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Sergeant Ranged Options",
+                    "hidden": false,
+                    "id": "cb6b-d993-c8f7-3e9e",
+                    "type": "selectionEntryGroup",
+                    "targetId": "c44a-c82d-3e61-8c28"
+                  },
+                  {
+                    "import": true,
+                    "name": "Infantry Sidearms",
+                    "hidden": false,
+                    "id": "5354-7ec3-1599-f68a",
+                    "type": "selectionEntryGroup",
+                    "targetId": "9640-82e1-3acb-6109"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Pts",
+                    "typeId": "points",
+                    "value": 3
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b8ab-5995-6320-5db5"
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Pts",
+            "typeId": "points",
+            "value": 0
+          },
+          {
+            "name": "Requisition",
+            "typeId": "ff33-0eb3-3b78-7829",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Laser-Rifle",
+        "hidden": false,
+        "id": "c0dc-e049-a0a6-4c18",
+        "costs": [
+          {
+            "name": "Requisition",
+            "typeId": "ff33-0eb3-3b78-7829",
+            "value": 0
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Infantry Laser-Rifle",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "777d-9a04-5fc9-9bbd",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "24"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "1"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Rifle, Energy"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "1"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Energy",
+            "id": "1423-e7df-f1cf-4485",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "0f48-2fbf-a744-86f6"
+          },
+          {
+            "name": "Rifle",
+            "id": "b7c8-92c5-cf31-eeaf",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "d608-bce2-cf48-716c"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Rifle",
+        "hidden": false,
+        "id": "0382-220b-8e37-72f4",
+        "profiles": [
+          {
+            "name": "Infantry Rifle",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "3aec-da00-270a-6088",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "24"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Ballistic, Rifle"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "1"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "bff3-3793-d459-0a63",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Rifle",
+            "id": "59d3-6aa9-048a-0a7f",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "d608-bce2-cf48-716c"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Carbine",
+        "hidden": false,
+        "id": "e9c3-a69c-96ca-c98f",
+        "profiles": [
+          {
+            "name": "Infantry Carbine",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "1072-488d-b1b9-9389",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "18"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Ballistic, Carbine"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "1"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "f935-8152-7037-bb61",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Carbine",
+            "id": "5f33-0a2c-57a4-a2a0",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "d442-54dc-7844-d5b1"
+          },
+          {
+            "name": "Moving Fire(X)",
+            "id": "1903-8745-3af4-43d2",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "ceeb-ed5b-73cd-7445"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Auto-Rifle",
+        "hidden": false,
+        "id": "e4f4-78e1-2f4e-9f45",
+        "profiles": [
+          {
+            "name": "Infantry Auto-Rifle",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "abf8-d236-256b-3908",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "24"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Ballistic, Rifle, Automatic"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "2"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "dcdf-00a1-bcd3-ed09",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Rifle",
+            "id": "78dc-7059-0de2-3003",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "d608-bce2-cf48-716c"
+          },
+          {
+            "name": "Automatic",
+            "id": "a97d-6b9b-f5a0-a0b5",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "4b0f-abf5-ab66-261e"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Auto-Carbine",
+        "hidden": false,
+        "id": "449c-0efa-da3d-d237",
+        "profiles": [
+          {
+            "name": "Infantry Auto-Carbine",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "5b23-3922-b984-b6d2",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "18"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Ballistic, Carbine, Automatic"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "2"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "384a-15c3-7db6-2476",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Automatic",
+            "id": "61b6-a6d2-fc33-01f3",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "4b0f-abf5-ab66-261e"
+          },
+          {
+            "name": "Carbine",
+            "id": "738c-c9d1-4e16-dd8e",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "d442-54dc-7844-d5b1"
+          },
+          {
+            "name": "Moving Fire(X)",
+            "id": "3b5b-7c9b-ef1e-7bf2",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "ceeb-ed5b-73cd-7445"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Pistol",
+        "hidden": false,
+        "id": "2035-365a-a98e-0e51",
+        "profiles": [
+          {
+            "name": "Infantry Pistol",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "2126-456f-5aae-3026",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "12"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "3"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Pistol, One-Handed, Ballistic"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "1"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "aa51-0f21-3736-f159",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Pistol",
+            "id": "c9a0-10b4-f00b-8024",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "219a-5748-263e-78bf"
+          },
+          {
+            "name": "One-Handed",
+            "id": "757c-36d4-df6b-7a52",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "f3e5-5ab7-e9a6-a257"
+          },
+          {
+            "name": "Moving Fire(X)",
+            "id": "0345-2bfb-e7a0-7799",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "ceeb-ed5b-73cd-7445"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Auto-Pistol",
+        "hidden": false,
+        "id": "634f-e5ea-5154-0a54",
+        "profiles": [
+          {
+            "name": "Infantry Auto-Pistol",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "eab7-bba1-b282-355f",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "12"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "3"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Pistol, One-Handed, Ballistic, Automatic"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "2"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "e834-a9a8-f932-608e",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Pistol",
+            "id": "db3e-1003-7371-fdd2",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "219a-5748-263e-78bf"
+          },
+          {
+            "name": "One-Handed",
+            "id": "28b4-7c64-ada1-bc95",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "f3e5-5ab7-e9a6-a257"
+          },
+          {
+            "name": "Moving Fire(X)",
+            "id": "fe3b-fc13-fc4d-75a8",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "ceeb-ed5b-73cd-7445"
+          },
+          {
+            "name": "Automatic",
+            "id": "3103-53d1-312b-db4d",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "4b0f-abf5-ab66-261e"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Infantry Heavy-Pistol",
+        "hidden": false,
+        "id": "ad95-3816-1f76-8341",
+        "profiles": [
+          {
+            "name": "Infantry Heavy-Pistol",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "e2db-f107-48ea-e1a2",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "18"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Pistol, Ballistic, One-Handed"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "1"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ballistic",
+            "id": "74bd-8253-7d68-8823",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "09f0-5941-f550-9a12"
+          },
+          {
+            "name": "Pistol",
+            "id": "8c76-d4da-d3fc-be85",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "219a-5748-263e-78bf"
+          },
+          {
+            "name": "One-Handed",
+            "id": "2340-690e-b673-aca8",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "f3e5-5ab7-e9a6-a257"
+          },
+          {
+            "name": "Moving Fire(X)",
+            "id": "86f0-0568-6ef0-85d2",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "ceeb-ed5b-73cd-7445"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Alliance Light Armor",
+        "hidden": false,
+        "id": "47fe-2ce8-e466-feba",
+        "profiles": [
+          {
+            "name": "Alliance Light Armor",
+            "typeId": "85c6-4a1e-d9b1-8d7f",
+            "typeName": "Wargear Item",
+            "hidden": false,
+            "id": "8104-b86a-5359-2a8f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "7494-924d-d974-76f8",
+                "$text": "This armor provides a 9+ Primary Save against Ballistic Weapons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Alliance Medium Armor",
+        "hidden": false,
+        "id": "3297-a53e-d4f6-0593",
+        "profiles": [
+          {
+            "name": "Alliance Medium Armor",
+            "typeId": "85c6-4a1e-d9b1-8d7f",
+            "typeName": "Wargear Item",
+            "hidden": false,
+            "id": "d432-797b-c456-f1fd",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "7494-924d-d974-76f8",
+                "$text": "This armor provides a 8+ Primary Save against Melee and Ballistic Weapons."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Alliance Heavy Armor",
+        "hidden": false,
+        "id": "5fde-760b-5192-ab12",
+        "profiles": [
+          {
+            "name": "Alliance Heavy Armor",
+            "typeId": "85c6-4a1e-d9b1-8d7f",
+            "typeName": "Wargear Item",
+            "hidden": false,
+            "id": "aecc-ec0d-8ece-a977",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "7494-924d-d974-76f8",
+                "$text": "This armor provides a 7+ Primary Save against Melee and Ballistic Weapons, however the model equipped suffers a -1 to their Initiative."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Alliance Recon Armor",
+        "hidden": false,
+        "id": "7b68-1ca7-3154-1ef6",
+        "profiles": [
+          {
+            "name": "Alliance Recon Armor",
+            "typeId": "85c6-4a1e-d9b1-8d7f",
+            "typeName": "Wargear Item",
+            "hidden": false,
+            "id": "e735-bb3e-a7a5-89c4",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "7494-924d-d974-76f8",
+                "$text": "This armor provides a 10+ Primary Save against Ballistic Weapons, improve this to an 8+ when you have benefit of Cover and grants +1 to Initiative and Movement Characteristic."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Alliance Clan Cane",
+        "hidden": false,
+        "id": "6a62-f32d-8c20-10ff",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "1050-583e-fea6-8b83"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "House Cane",
+            "typeId": "db54-88f2-eb1c-6770",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "4d63-8b87-9432-916d",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "56ac-09e6-a6ce-498c",
+                "$text": "Clan Cane's Training: All INFANTRY Models in this Army Organization Chart gain +1 to their Discipline and Willpower. Anytime a Model/Unit is forced to take a Fall Back Movement, instead they take a Discipline Test and if they succeed, they ignore it.\n\n\nPIONEER Infantry Units ignores the Distrusted Ally Special Rule.\n"
+              }
+            ]
+          },
+          {
+            "name": "House Cane",
+            "typeId": "0d83-d584-6c16-6b6f",
+            "typeName": "Lore",
+            "hidden": false,
+            "id": "cb56-e4ac-0495-0893",
+            "characteristics": [
+              {
+                "name": "Lore",
+                "typeId": "8f51-2099-f67c-300e",
+                "$text": "Clan Cane was the first Clan to join the Valerius Alliance and stood alongside it during it's fledgling years. Clan Cane contributes officers of it's clan to the Alliance Regiments to guide training, many of these officers are given the highest respects as their training is a step-above most others. Clan Cane's greatest and most decisive action was their full trust of the Pioneers, as unlike other Clans, they welcomed them with open arms; even refusing to teach Regiments that refused adoption or proper care of the Pioneers. However the ever-defiant Clan has ignored the pleas and bribes of many, and those Regiments that are taught alongside the Pioneers now see greater success than ever before."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Alliance Clan Kilroy",
+        "hidden": false,
+        "id": "0ffb-70d6-b6d9-3e5b",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "e172-014b-4eec-7e00"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Alliance Clan Kilroy",
+            "typeId": "0d83-d584-6c16-6b6f",
+            "typeName": "Lore",
+            "hidden": false,
+            "id": "bd3c-5926-35d5-5707",
+            "characteristics": [
+              {
+                "name": "Lore",
+                "typeId": "8f51-2099-f67c-300e",
+                "$text": "Clan Kilroy has it's history rooted in the criminal undergrounds of the Valerius system with indomitable control over the market of Walkers and Mechanicals, it was until the days of the full reconstruction of Valerius Prime where they fought against the fledgling Alliance Regiments. However, unlike other criminal organizations and empires crushed, the Kilroy Under-Empire was found to be a potential ally as their understanding and specialization into Walkers and Mechanicals was a rare skill amongst the forming Clans, and thus, were offered a proper chance of life as an Alliance Clan.\n\n\nClan Kilroy now provides their services for anything to do with Walkers and Mechanicals: Mechanics, Pilots, Strategists, even serving as frontline leaders, the adrenaline of which is said to match their days of criminal-hood."
+              }
+            ]
+          },
+          {
+            "name": "Alliance Clan Kilroy",
+            "typeId": "db54-88f2-eb1c-6770",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "0c54-ac62-fd8c-ae10",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "56ac-09e6-a6ce-498c",
+                "$text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Support Carrier",
+        "hidden": false,
+        "id": "7303-c373-2da1-f302",
+        "costs": [
+          {
+            "name": "Pts",
+            "typeId": "points",
+            "value": 15
+          },
+          {
+            "name": "Requisition",
+            "typeId": "ff33-0eb3-3b78-7829",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Alliance Armor Support Squad",
+            "hidden": false,
+            "id": "652a-ea58-23fb-a3d8",
+            "selectionEntryGroups": [
+              {
+                "name": "Alliance Armor Squad",
+                "id": "0207-037f-1026-82dc",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Alliance Rifleman",
+                    "hidden": false,
+                    "id": "203e-6072-03a1-b248",
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Infantry Ranged Weapons",
+                        "hidden": false,
+                        "id": "15e4-d7e7-4ebd-15a3",
+                        "type": "selectionEntryGroup",
+                        "targetId": "d2a1-de53-c951-8224"
+                      },
+                      {
+                        "import": true,
+                        "name": "Bayonet",
+                        "hidden": false,
+                        "id": "792c-d709-0c22-3d62",
+                        "type": "selectionEntryGroup",
+                        "targetId": "ffe3-24cc-79ba-74f4"
+                      },
+                      {
+                        "import": true,
+                        "name": "Infantry Equipment",
+                        "hidden": false,
+                        "id": "8306-5a50-a266-c93c",
+                        "type": "selectionEntryGroup",
+                        "targetId": "d7ad-7279-5469-fdcd",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "652a-ea58-23fb-a3d8",
+                            "shared": true,
+                            "id": "114f-3cd1-f759-46f2",
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "import": true,
+                        "name": "Alliance Light Armor",
+                        "hidden": false,
+                        "id": "099a-4678-059e-d2ee",
+                        "type": "selectionEntry",
+                        "targetId": "47fe-2ce8-e466-feba",
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "855a-3413-01b9-70fd"
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "01ed-6f6f-c6f2-4d0d"
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Pts",
+                        "typeId": "points",
+                        "value": 1
+                      },
+                      {
+                        "name": "Requisition",
+                        "typeId": "ff33-0eb3-3b78-7829",
+                        "value": 0
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 4,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "e272-a2ec-2776-8cb0"
+                      },
+                      {
+                        "type": "max",
+                        "value": 8,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "74d9-9e0c-aa15-3b86"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Alliance Rifleman",
+                        "typeId": "a58b-8183-8b57-845c",
+                        "typeName": "INFANTRY",
+                        "hidden": false,
+                        "id": "fd4c-9a38-407e-d0b6",
+                        "characteristics": [
+                          {
+                            "name": "UT",
+                            "typeId": "d0c3-cd30-159c-41ee",
+                            "$text": "INFANTRY"
+                          },
+                          {
+                            "name": "HP",
+                            "typeId": "26e6-deb2-5052-a74f",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Def",
+                            "typeId": "7831-ff70-1145-ce60",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "MS",
+                            "typeId": "3f4d-38e9-9633-76a1",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "36f6-a14d-1670-f31d",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "M",
+                            "typeId": "6199-ffd0-7221-bdc4",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "4ae7-22fc-d553-d923",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "W",
+                            "typeId": "6756-14bb-043e-2aa8",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "Int",
+                            "typeId": "6c6d-9ebe-a779-155b",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "Ini",
+                            "typeId": "0698-48b0-7460-9a7e",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "acfe-3039-aa5c-e541",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "T",
+                            "typeId": "2fba-f111-39dc-c7b4",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "RWS",
+                            "typeId": "db0e-ca2f-9e5e-e143",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "MWS",
+                            "typeId": "424d-378d-20be-20d3",
+                            "$text": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Alliance Sergeant",
+                    "id": "45f6-742b-aab7-5f52",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Alliance Sergeant",
+                        "hidden": false,
+                        "id": "84a1-ba8d-2243-d13c",
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Sergeant Ranged Options",
+                            "hidden": false,
+                            "id": "82d1-9db0-ec0b-5fb0",
+                            "type": "selectionEntryGroup",
+                            "targetId": "c44a-c82d-3e61-8c28"
+                          },
+                          {
+                            "import": true,
+                            "name": "Infantry Sidearms",
+                            "hidden": false,
+                            "id": "ccfa-b2e8-04c1-95e0",
+                            "type": "selectionEntryGroup",
+                            "targetId": "9640-82e1-3acb-6109"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Pts",
+                            "typeId": "points",
+                            "value": 3
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "50f6-9852-573c-c730"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 0
+              },
+              {
+                "name": "Requisition",
+                "typeId": "ff33-0eb3-3b78-7829",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Support Carrier",
+            "id": "248e-213d-7062-d7e3",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Support Carrier",
+                "hidden": false,
+                "id": "9616-5e0d-4742-2918",
+                "profiles": [
+                  {
+                    "name": "Support Carrier",
+                    "typeId": "19f2-ad80-cde0-f446",
+                    "typeName": "Vehicle",
+                    "hidden": false,
+                    "id": "9420-2246-b3ba-24ce",
+                    "characteristics": [
+                      {
+                        "name": "Unit Type",
+                        "typeId": "afd5-717f-3f8b-54c8",
+                        "$text": "VEHICLE"
+                      },
+                      {
+                        "name": "M",
+                        "typeId": "1b5c-9d36-5799-c639",
+                        "$text": "12"
+                      },
+                      {
+                        "name": "HP",
+                        "typeId": "e07a-44d5-a28b-fccb",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Hull",
+                        "typeId": "ee8f-5935-2369-292c",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Front",
+                        "typeId": "2e18-0c17-d5ef-a03c",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "Side",
+                        "typeId": "dda7-ef77-4f5b-4ec7",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "Rear",
+                        "typeId": "d9e7-69e3-7001-3608",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "2035-0779-92cc-5b4c",
+                        "$text": "Crew"
+                      },
+                      {
+                        "name": "MS",
+                        "typeId": "24ee-efbd-4b87-baef",
+                        "$text": "Crew"
+                      },
+                      {
+                        "name": "Transport Capacity",
+                        "typeId": "1aa8-f234-622f-e75f",
+                        "$text": "Crew only"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ebb9-f672-4ca3-f795"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "dfe8-da13-1276-2678"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Missile Rack",
+                    "hidden": false,
+                    "id": "69aa-9652-f776-eca1",
+                    "type": "selectionEntry",
+                    "targetId": "3aae-c46d-c39e-e3b6",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2a93-2138-70a8-dcad-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2a93-2138-70a8-dcad-max"
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Support Carrier",
+                    "id": "7d04-95aa-161f-ea18",
+                    "hidden": false,
+                    "description": "This Vehicle counts as an Artillery Unit for the Artillery Coordination Special Rule. The Missile Rack can only fire once per round, and cannot be used if the Support Carrier has moved."
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Unit Type: Vehicle",
+                    "id": "dcf7-2fd1-e57c-f505",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "5da9-2b79-070d-86c6"
+                  },
+                  {
+                    "name": "Vehicle Damage Table",
+                    "id": "6b87-526a-e8fd-01a2",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "b285-aa39-ba2f-1976"
+                  },
+                  {
+                    "name": "Vehicle Ramming Action",
+                    "id": "22cd-8f8f-8e4d-4617",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "bd48-bcfa-05cd-dbd3"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Support Carrier Crew",
+                "hidden": false,
+                "id": "7d15-eaea-b605-6af9",
+                "profiles": [
+                  {
+                    "name": "Support Carrier Crew",
+                    "typeId": "a58b-8183-8b57-845c",
+                    "typeName": "INFANTRY",
+                    "hidden": false,
+                    "id": "9852-a9a1-202f-2287",
+                    "characteristics": [
+                      {
+                        "name": "UT",
+                        "typeId": "d0c3-cd30-159c-41ee",
+                        "$text": "INFANTRY"
+                      },
+                      {
+                        "name": "HP",
+                        "typeId": "26e6-deb2-5052-a74f",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Def",
+                        "typeId": "7831-ff70-1145-ce60",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "MS",
+                        "typeId": "3f4d-38e9-9633-76a1",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "36f6-a14d-1670-f31d",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "M",
+                        "typeId": "6199-ffd0-7221-bdc4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "4ae7-22fc-d553-d923",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "6756-14bb-043e-2aa8",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "Int",
+                        "typeId": "6c6d-9ebe-a779-155b",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "Ini",
+                        "typeId": "0698-48b0-7460-9a7e",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "acfe-3039-aa5c-e541",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "2fba-f111-39dc-c7b4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "RWS",
+                        "typeId": "db0e-ca2f-9e5e-e143",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "MWS",
+                        "typeId": "424d-378d-20be-20d3",
+                        "$text": "1"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ccef-55df-e9eb-231f-min"
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ccef-55df-e9eb-231f-max"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Crew Ranged Weapons",
+                    "hidden": false,
+                    "id": "66e0-8459-eecf-5941",
+                    "type": "selectionEntryGroup",
+                    "targetId": "8427-ac65-0a76-d7f7"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Missile Rack",
+        "hidden": false,
+        "id": "3aae-c46d-c39e-e3b6",
+        "profiles": [
+          {
+            "name": "Missile Rack",
+            "typeId": "d233-0653-f762-e538",
+            "typeName": "Weapon",
+            "hidden": false,
+            "id": "eb3b-20c7-52c4-fa88",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "b3c1-2707-e74d-88f6",
+                "$text": "72"
+              },
+              {
+                "name": "S",
+                "typeId": "6997-f9f2-6f9b-ef3c",
+                "$text": "5"
+              },
+              {
+                "name": "AP",
+                "typeId": "8c5e-9516-a499-63f5",
+                "$text": "2"
+              },
+              {
+                "name": "D",
+                "typeId": "7f27-f5c3-9c54-de65",
+                "$text": "1"
+              },
+              {
+                "name": "Abilities",
+                "typeId": "cfcb-ec22-834e-7336",
+                "$text": "Blast Radius(4), Indirect Fire"
+              },
+              {
+                "name": "WPN Dice",
+                "typeId": "0255-21c0-4ef7-efa2",
+                "$text": "1"
+              },
+              {
+                "name": "BS/MS",
+                "typeId": "b356-3224-2f16-54c7",
+                "$text": "BS"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Indirect Fire",
+            "id": "40d2-ef21-68b2-b2a5",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "efbf-0dfb-1a3d-f89c"
+          },
+          {
+            "name": "Blast Radius(X)",
+            "id": "f672-5f6e-8e51-e9f4",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "d912-27fd-8843-4efa"
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Infantry Ranged Weapons",
+        "id": "d2a1-de53-c951-8224",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Infantry Laser-Rifle",
+            "hidden": false,
+            "id": "35d3-2547-cfbe-0a40",
+            "type": "selectionEntry",
+            "targetId": "c0dc-e049-a0a6-4c18",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Rifle",
+            "hidden": false,
+            "id": "970b-fdf7-5f46-7105",
+            "type": "selectionEntry",
+            "targetId": "0382-220b-8e37-72f4",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Carbine",
+            "hidden": false,
+            "id": "b6d0-f0bc-ec4d-0a44",
+            "type": "selectionEntry",
+            "targetId": "e9c3-a69c-96ca-c98f",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Auto-Carbine",
+            "hidden": false,
+            "id": "d1fc-7ea7-8217-fea9",
+            "type": "selectionEntry",
+            "targetId": "449c-0efa-da3d-d237",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Auto-Rifle",
+            "hidden": false,
+            "id": "3ef0-41d8-4e9c-0196",
+            "type": "selectionEntry",
+            "targetId": "e4f4-78e1-2f4e-9f45",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "7f08-b4f8-ad29-6691"
+          }
+        ]
+      },
+      {
+        "name": "Infantry Sidearms",
+        "id": "9640-82e1-3acb-6109",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Infantry Auto-Pistol",
+            "hidden": false,
+            "id": "0d0d-3dab-1436-cee8",
+            "type": "selectionEntry",
+            "targetId": "634f-e5ea-5154-0a54",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Heavy-Pistol",
+            "hidden": false,
+            "id": "790c-9448-bc77-78f0",
+            "type": "selectionEntry",
+            "targetId": "ad95-3816-1f76-8341",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Pistol",
+            "hidden": false,
+            "id": "eb07-3de0-1d20-fc1a",
+            "type": "selectionEntry",
+            "targetId": "2035-365a-a98e-0e51",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ba95-5555-0fe6-7404"
+          }
+        ]
+      },
+      {
+        "name": "Bayonet",
+        "id": "ffe3-24cc-79ba-74f4",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Bayonet",
+            "hidden": false,
+            "id": "5a6a-52c3-ae78-274a",
+            "type": "selectionEntry",
+            "targetId": "779d-76c3-4788-299b",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "79e3-7279-3394-b109"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "449c-0efa-da3d-d237",
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "e4f4-78e1-2f4e-9f45",
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "0382-220b-8e37-72f4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "e9c3-a69c-96ca-c98f",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infantry Armor",
+        "id": "652d-fbb9-f019-1453",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Alliance Light Armor",
+            "hidden": false,
+            "id": "9af4-0d17-bbbe-5de6",
+            "type": "selectionEntry",
+            "targetId": "47fe-2ce8-e466-feba"
+          },
+          {
+            "import": true,
+            "name": "Alliance Medium Armor",
+            "hidden": false,
+            "id": "4018-bc86-e3e2-c2a9",
+            "type": "selectionEntry",
+            "targetId": "3297-a53e-d4f6-0593"
+          },
+          {
+            "import": true,
+            "name": "Alliance Heavy Armor",
+            "hidden": false,
+            "id": "7cdb-ac1e-4566-16ec",
+            "type": "selectionEntry",
+            "targetId": "5fde-760b-5192-ab12"
+          },
+          {
+            "import": true,
+            "name": "Alliance Recon Armor",
+            "hidden": false,
+            "id": "3104-4d61-a1f6-652e",
+            "type": "selectionEntry",
+            "targetId": "7b68-1ca7-3154-1ef6"
+          }
+        ]
+      },
+      {
+        "name": "Alliance Clan",
+        "id": "210f-9e37-a9a8-2517",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "5624-41bc-d6cd-1de8",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "0967-6ef9-1102-12b0",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "5c17-692f-cf7d-766e",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "f9fd-b1bf-5b18-7ade",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "9e8e-07a9-7671-2016",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Alliance Clan Cane",
+            "hidden": false,
+            "id": "51f1-fcde-8a68-ad3d",
+            "type": "selectionEntry",
+            "targetId": "6a62-f32d-8c20-10ff"
+          }
+        ]
+      },
+      {
+        "name": "Squad Skills",
+        "id": "4395-99e8-5c21-d8ec",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tank Hunters",
+            "hidden": false,
+            "id": "add6-3ce6-ec34-fa19",
+            "profiles": [
+              {
+                "name": "Tank Hunters",
+                "typeId": "db54-88f2-eb1c-6770",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "c6d8-d6c6-2817-5bb2",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "56ac-09e6-a6ce-498c",
+                    "$text": ""
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              },
+              {
+                "name": "Requisition",
+                "typeId": "ff33-0eb3-3b78-7829",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infantry Equipment",
+        "id": "d7ad-7279-5469-fdcd",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Communication-Link Pack",
+            "hidden": false,
+            "id": "bd0f-2b9d-1c43-55b9",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 5
+              },
+              {
+                "name": "Requisition",
+                "typeId": "ff33-0eb3-3b78-7829",
+                "value": 0
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Communication-Link Pack",
+                "typeId": "85c6-4a1e-d9b1-8d7f",
+                "typeName": "Wargear Item",
+                "hidden": false,
+                "id": "4ede-b630-dbe2-99aa",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "7494-924d-d974-76f8",
+                    "$text": "If a Headquarters Unit has a comm-link, then one squad with a comm-link each turn can use that HQ Unit's Discipline or Willpower Characteristic no matter where they are on the battlefield. You can use the comm-link anytime, even if the Headquarters Unit is within a transport.\n\nIf the model equipped with this upgrade dies, this equipment is no longer in play."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Medical Bag",
+            "hidden": false,
+            "id": "a440-947e-f07f-d9ab",
+            "profiles": [
+              {
+                "name": "Medical Bag",
+                "typeId": "85c6-4a1e-d9b1-8d7f",
+                "typeName": "Wargear Item",
+                "hidden": false,
+                "id": "9fd4-df0b-bdef-2eed",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "7494-924d-d974-76f8",
+                    "$text": "The Model equipped with this upgrade gains the Medic Special Rule, but it only benefits to the Unit it is with.\n\nIf the model equipped with this upgrade dies, this equipment is no longer in play."
+                  }
+                ]
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Medic",
+                "id": "4c38-4d64-a283-b90c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "10fb-4b61-3ec8-48a8"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 5
+              },
+              {
+                "name": "Requisition",
+                "typeId": "ff33-0eb3-3b78-7829",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Artillery Signal",
+            "hidden": false,
+            "id": "6eef-908c-3aed-7992",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 0
+              },
+              {
+                "name": "Requisition",
+                "typeId": "ff33-0eb3-3b78-7829",
+                "value": 1
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Artillery Signal",
+                "typeId": "85c6-4a1e-d9b1-8d7f",
+                "typeName": "Wargear Item",
+                "hidden": false,
+                "id": "c5d8-839f-3743-e2dd",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "7494-924d-d974-76f8",
+                    "$text": "Once per round, a model equipped with a Artillery Signal may declare to use it. It rolls 4d6 for Range, then choose an enemy unit within that range that is also within line of sight, then select one Friendly Artillery Unit that also has line of sight to perform a (BS) Shooting action against it; even if it has already activated this round.\n\nIf the model equipped with this upgrade dies, this equipment is no longer in play."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Demolition Charge",
+            "hidden": false,
+            "id": "9bb4-e2e9-49d6-6f2d",
+            "type": "selectionEntry",
+            "targetId": "876e-b99e-fb9f-a2b8",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Field Torpedo",
+            "hidden": false,
+            "id": "c054-5d21-53e7-c761",
+            "type": "selectionEntry",
+            "targetId": "5572-79ac-e1f5-fdf3",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Crew Ranged Weapons",
+        "id": "8427-ac65-0a76-d7f7",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "35ae-642e-d18a-5775"
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Infantry Auto-Pistol",
+            "hidden": false,
+            "id": "7953-2f63-398d-5e4e",
+            "type": "selectionEntry",
+            "targetId": "634f-e5ea-5154-0a54",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Heavy-Pistol",
+            "hidden": false,
+            "id": "4e7d-a477-eb89-34e8",
+            "type": "selectionEntry",
+            "targetId": "ad95-3816-1f76-8341",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Pistol",
+            "hidden": false,
+            "id": "75f0-3158-f9c8-b86d",
+            "type": "selectionEntry",
+            "targetId": "2035-365a-a98e-0e51",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Auto-Carbine",
+            "hidden": false,
+            "id": "f5bd-7a95-7375-4868",
+            "type": "selectionEntry",
+            "targetId": "449c-0efa-da3d-d237",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Carbine",
+            "hidden": false,
+            "id": "f875-ceac-4a41-5830",
+            "type": "selectionEntry",
+            "targetId": "e9c3-a69c-96ca-c98f",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sergeant Ranged Options",
+        "id": "c44a-c82d-3e61-8c28",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Infantry Auto-Carbine",
+            "hidden": false,
+            "id": "4a48-ba50-2858-e3e9",
+            "type": "selectionEntry",
+            "targetId": "449c-0efa-da3d-d237",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Auto-Pistol",
+            "hidden": false,
+            "id": "1792-e76f-2d60-74c1",
+            "type": "selectionEntry",
+            "targetId": "634f-e5ea-5154-0a54",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Auto-Rifle",
+            "hidden": false,
+            "id": "eb57-a128-7528-635e",
+            "type": "selectionEntry",
+            "targetId": "e4f4-78e1-2f4e-9f45",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Pistol",
+            "hidden": false,
+            "id": "ee05-7076-306c-8c4d",
+            "type": "selectionEntry",
+            "targetId": "2035-365a-a98e-0e51",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": -1
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Heavy-Pistol",
+            "hidden": false,
+            "id": "8046-2d96-2f83-1a3d",
+            "type": "selectionEntry",
+            "targetId": "ad95-3816-1f76-8341",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Laser-Rifle",
+            "hidden": false,
+            "id": "a11b-b4eb-451b-2a68",
+            "type": "selectionEntry",
+            "targetId": "c0dc-e049-a0a6-4c18",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Infantry Carbine",
+            "hidden": false,
+            "id": "d09d-e5d3-d1f4-6e09",
+            "type": "selectionEntry",
+            "targetId": "e9c3-a69c-96ca-c98f"
+          },
+          {
+            "import": true,
+            "name": "Infantry Rifle",
+            "hidden": false,
+            "id": "a2c7-202d-60e7-c513",
+            "type": "selectionEntry",
+            "targetId": "0382-220b-8e37-72f4",
+            "costs": [
+              {
+                "name": "Pts",
+                "typeId": "points",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "460e-2a4b-d113-0ebf"
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Alliance Infantry Squad",
+        "hidden": false,
+        "id": "8420-b10e-d0d3-0500",
+        "type": "selectionEntry",
+        "targetId": "1f58-500a-eb44-5830",
+        "categoryLinks": [
+          {
+            "targetId": "04c8-7927-d0d3-1be4",
+            "id": "55df-8f03-910d-56ab",
+            "primary": true,
+            "name": "Core Troops"
+          }
+        ]
+      },
+      {
+        "import": true,
+        "name": "Support Carrier",
+        "hidden": false,
+        "id": "b9c9-3d32-cb49-f9c7",
+        "type": "selectionEntry",
+        "targetId": "7303-c373-2da1-f302",
+        "categoryLinks": [
+          {
+            "targetId": "813f-262b-7300-cdb5",
+            "id": "d105-b84d-a0df-6e73",
+            "primary": true,
+            "name": "Vehicles"
+          }
+        ]
+      }
+    ]
+  }
+}
